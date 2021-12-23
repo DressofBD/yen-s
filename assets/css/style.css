@@ -316,9 +316,10 @@ li.nav-item {
   transition: 0.3s;
   margin: 0 5px;
 }
-li a.nav-link:hover, li a.nav-link.active{
+li a.nav-link:hover, li a.nav-link.active, .nav-item.dropdown:hover > a.nav-link{
   background: linear-gradient(to bottom, #00629e, #004691);
 }
+
 li.nav-item::after {
   position: absolute;
   content: "";
