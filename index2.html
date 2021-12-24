@@ -20,7 +20,7 @@
     <header>
       <div class="top-header-desc">
         <div class="container">
-          <div class="animatedParent animateOnce d-flex justify-content-between align-items-center top-desc">
+          <div class="animatedParent d-flex justify-content-between align-items-center top-desc">
             <div class="animated fadeInLeftShort top-logo">
               <a href="index.html">
                 <img src="assets/images/logo.png" alt="Logo">
@@ -99,7 +99,7 @@
       </div>
     </header>
     <section class="home-page">
-      <div class="animatedParent animateOnce banner">
+      <div class="animatedParent banner">
         <div id="carousel1" class="animated fadeInUpShort carousel slide carousel-fade" data-bs-ride="carousel">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -143,28 +143,25 @@
       <div class="sustainable">
         <!-- Parallax div -->
         <div class="parallax-area">
-          <!-- <img src="assets/images/parallax-3.png" class="parallax-1" alt=""> -->
-          <div class="parallax-1 h-100" style="background-image: url(assets/images/parallax-3.png);"></div>
-        </div>
-        <div class="parallax-area">
-          <img src="assets/images/parallax-4.png" class="parallax-2" alt="">
+          <div class="parallax h-100" style="background-image: url(assets/images/parallax-1.png);" data-paroller-type="background" data-paroller-direction="vertical" data-paroller-factor="-0.5"></div>
+          <img src="assets/images/home-graph-4.png" class="thumbnail" id="parallax-image"  data-paroller-factor="-0.2" alt="">
         </div>
         <div class="z-9 container">
           <div class="row">
             <div class="col-md-4">
               <div class="d-flex sustainable-lblock">
-                <div class="animatedParent animateOnce">
+                <div class="animatedParent">
                   <h3 class="animated fadeInUpShort s-heading">Sustainable Practices For A Sustainable Future</h3>
                   <div class="animated fadeInDownShort brdr b-yellow"></div>
                 </div>
-                <div class="animatedParent animateOnce build-tomorrow" data-sequence='200'>
+                <div class="animatedParent build-tomorrow" data-sequence='200'>
                   <p class="animated fadeInUpShort" data-id='1'>Offering sustainable technological solutions.</p>
                   <a class="animated fadeInDownShort" href="#!" data-id='2'>Build A Better Tomorrow Now!</a>
                 </div>
               </div>
             </div>
             <div class="col-md-8">
-              <ul class="animatedParent animateOnce sustainable-blocks d-flex justify-content-between" data-sequence='200'>
+              <ul class="animatedParent sustainable-blocks d-flex justify-content-between" data-sequence='200'>
                 <li class="animated fadeInLeftShort" data-id='1'>
                   <img src="assets/images/home-graph-1.png" alt="">
                   <h4>Engineering & Fabrication Services</h4>
@@ -193,7 +190,7 @@
             </div>
           </div>
         </div>
-        <div class="animatedParent animateOnce z-9 agenda-sustainability">
+        <div class="animatedParent z-9 agenda-sustainability">
           <div id="carousel2" class="animated fadeInUpShort carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active" data-bs-interval="10000">
@@ -240,7 +237,7 @@
         <div class="z-9 track-records">
           <div class="container">
             <h3 class="s-heading mb-3">Track Records</h3>
-            <div class="animatedParent animateOnce d-flex align-items-stretch justify-content-between records-block">
+            <div class="animatedParent d-flex align-items-stretch justify-content-between records-block">
               <div class="animated fadeInLeftShort tr-block tr-block1">
                   <div class="tr-block-desc">
                     <h4>EPCC Pipeline & Facilities</h4>
@@ -257,7 +254,7 @@
               </div>
             </div>
             <div class="d-flex align-items-stretch justify-content-between records-block">
-              <div class="animatedParent animateOnce tr-block3">
+              <div class="animatedParent tr-block3">
                 <div class="animated fadeInLeftShort d-flex align-items-stretch justify-content-between">
                   <div class="tr-block tr-block3-1">
                     <img src="assets/images/pipeline-3.jpg" alt="">
@@ -283,7 +280,7 @@
                   </div>
                 </div>
               </div>
-              <div class="animatedParent animateOnce tr-block tr-block4">
+              <div class="animatedParent tr-block tr-block4">
                 <div class="animated fadeInRightShort">
                   <div class="tr-block-desc">
                     <h4>Pipe Coating</h4>
@@ -296,7 +293,7 @@
           </div>
         </div>
         <div class="z-9 interested-more mt-5">
-          <div class="animatedParent animateOnce container text-center">
+          <div class="animatedParent container text-center">
             <h5 class="animated fadeInDownShort">Interested To Know More?</h5>
             <p class="animated fadeInUpShort blue">Our technicians can provide you with the best solutions for you.</p>
             <a href="#!" class="animated fadeInDownShort btn1">Get In Touch <i class="fa fa-arrow-right"></i></a>
@@ -305,7 +302,7 @@
       </div>
     </section>
     <footer class="footer">
-      <div class="animatedParent animateOnce container text-center">
+      <div class="animatedParent container text-center">
         <p class="animated fadeInLeftShort">Copyright &copy; WASCO ENERGY GROUP OF COMPANIES. All rights reserved.</p>
       </div>
     </footer>
@@ -313,6 +310,7 @@
     <script src="assets/js/jquery-3.4.1.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/css3-animate-it.js"></script>
+    <script src="assets/js/jquery.paroller.js"></script>
     <script src="assets/js/main.js"></script>
   </body>
 </html>
