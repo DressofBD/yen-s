@@ -425,15 +425,18 @@ li.nav-item:last-child::after{
   overflow: hidden;
   padding: 100px 0 30px;
 }
-.parallax-image1 {
+.parallax-area {
   position: absolute;
-  height: auto !important;
   width: 100%;
   height: 100%;
   left: 0;
   right: 0;
   top: 0;
   bottom: 0;
+}
+.parallax-1 {
+  top: -1000px;
+  position: relative;
 }
 .sustainable-lblock {
   flex-direction: column;
