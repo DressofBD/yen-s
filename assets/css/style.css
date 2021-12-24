@@ -438,6 +438,9 @@ li.nav-item:last-child::after{
   top: -1000px;
   position: relative;
 }
+.animatedParent{
+  overflow: hidden;
+}
 .sustainable-lblock {
   flex-direction: column;
   justify-content: space-between;
