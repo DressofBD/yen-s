@@ -84,4 +84,3 @@ for (var d=0;d<b._$pre.length;d++){var e=b._$pre[d],f=a(e),g={x:e.dataset.origPo
       // Run the show!
       filterList.init();
 });   
-
