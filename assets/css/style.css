@@ -1643,7 +1643,7 @@ footer.footer {
 .banner-desc h3 {
   font-size: 30px;
 }
-.heading-top-left, .heading-top-right, .heading-bottom-left, .heading-middle-right {
+.heading-top-left, .heading-top-right, .heading-bottom-left, .heading-bottom-right, .heading-middle-left, .heading-middle-right {
   top: 0;
   float: none;
   padding-top: 30px;
@@ -1739,7 +1739,9 @@ footer.footer {
 .y-dot.y-dot-half li:nth-child(2n+2) {
   margin-left: 0;
 }
-
+.newsEvents-desc ul li .date b, .newsEvents-desc ul li .date p {
+  font-size: 13px;
+}
 
 
 
