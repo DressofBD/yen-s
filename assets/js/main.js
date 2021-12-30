@@ -1,4 +1,14 @@
-// parallax activator
+
+// Dropdown menu open on hover
+
+$('.navbar .dropdown').hover(function() {
+  $(this).find('.dropdown-menu').first().stop(true, true).delay(0).slideDown('fast');
+}, function() {
+  $(this).find('.dropdown-menu').first().stop(true, true).delay(0).slideUp('fast')
+});
+
+
+// parallax
 (function ($) {
       $.fn.parallax = function (options) {
 
@@ -33,16 +43,6 @@ $(".parallax-1").parallax({speed:70,ascending:true,delay:500});
 $(".parallax-2").parallax({speed:90,ascending:true,delay:1000});
 $(".parallax-3").parallax({speed:50,ascending:true,delay:1000});
 
-// Dropdown menu
-$(document).ready(function() {    
-  $('li.dropdown').hover(function() {
-$('ul.dropdown-menu', this).stop(true, true).slideDown('fast');
-$(this).addClass('show');
-      }, function() {
-$('ul.dropdown-menu', this).stop(true, true).slideUp('fast');
-$(this).removeClass('show');
-      });
-   });
 
 
 
