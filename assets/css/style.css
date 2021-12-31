@@ -1656,6 +1656,8 @@ footer.footer {
   float: none;
   padding-top: 30px;
   padding-left: 30px;
+  margin: 0;
+  width: 100%;
 }
 .about-us-block-left img {
   max-width: 100%;
@@ -1800,11 +1802,6 @@ footer.footer {
   width: 90%;
   margin-left: 7%;
   margin-right: 3%;
-}
-.heading-top-left, .heading-top-right {
-  margin-top: 20px;
-  padding-left: 20px;
-  width: 100%;
 }
 .globalNetwork-desc ul li {
   width: 25%;
