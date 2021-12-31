@@ -260,6 +260,11 @@ header {
 .send-mail span img {
   max-width: 25px;
 }
+.send-mail-mb {
+  position: fixed;
+  right: 20px;
+  bottom: 140px;
+}
 .header-form {
   margin-left: 30px;
   position: relative;
@@ -1581,22 +1586,25 @@ li.nav-item::after {
 .dropdown-menu li a {
   color: #000;
 }
-
+.top-desc {
+  flex-wrap: wrap;
+  justify-content: center !important;
+}
+.header-form {
+  margin-left: 0;
+}
+.header-form input {
+  width: 100%;
+  margin-bottom: 5px;
+}
 
 }
 @media (max-width: 767px){
 body {
   font-size: 14px;
 }
-.top-desc {
-  flex-wrap: wrap;
-  justify-content: center !important;
-}
 .top-logo {
   margin-bottom: 10px;
-}
-.header-form input {
-  max-width: 150px;
 }
 #carousel1 h1 {
   font-size: 30px;
@@ -1608,9 +1616,8 @@ h3.s-heading {
   max-width: 20px;
 }
 .send-mail span {
-  width: 30px;
-  height: 30px;
-  margin-right: 8px;
+  width: 35px;
+  height: 35px;
 }
 .sustainable {
   padding: 45px 0 30px;
@@ -1752,7 +1759,10 @@ footer.footer {
 .newsEvents-desc ul li .date b, .newsEvents-desc ul li .date p {
   font-size: 13px;
 }
-
+.send-mail-mb {
+  right: 6px;
+  bottom: 115px;
+}
 
 
 
