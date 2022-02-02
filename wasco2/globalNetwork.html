@@ -122,7 +122,7 @@
         <div class="animated fadeInDownShort btmBlackOverlay"></div>
       </div>
       <div class="globalNetwork-desc py-5">
-        <div class="animatedParent animateOnce container">
+        <div class="animatedParent animateOnce container of-scroll">
           <ul class="animated fadeInUpShort nav nav-pills mb-3" id="pills-tab" role="tablist">
             <li class="nav-item" role="presentation">
               <button class="nav-link active" id="all-tab" data-bs-toggle="pill" data-bs-target="#all" type="button" role="tab" aria-controls="all" aria-selected="true">All</button>
@@ -165,44 +165,117 @@
             </li>
           </ul>
           <div class="animated fadeInDownShort tab-content mt-md-5" id="pills-tabContent">
-            <div class="tab-pane fade show active" id="all" role="tabpanel" aria-labelledby="all-tab">
-              <img src="assets/images/globalNetwork-all.png" alt="">
+            <div class="tab-pane show active" id="all" role="tabpanel" aria-labelledby="all-tab">
+              <img src="assets/images/globalNetwork-map.png" alt="all">
+              <span class="mapIcon canada" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="<img src='assets/images/gn-canada.jpg'><h6>CANADA, <small>Regina, Saskatchewan</small></h6><p>Corrosion Coating</p>"></span>
+
+              <span class="mapIcon usa" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="<img src='assets/images/gn-usa.jpg'><h6>UNITED STATES, <small>New Iberia, Louisiana</small></h6><p>Corrosion Coating <br> Insulation Coating <br> Concrete Weight Coating</p>"></span>
+
+              <span class="mapIcon uk" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="<img src='assets/images/gn-wasco.jpg'><h6>UNITED KINGDOM <small> </small></h6><p>Engineering and Fabrication</p>"></span>
+
+              <span class="mapIcon nether" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="<img src='assets/images/gn-nether.jpg'><h6>NETHERLANDS,  <small>Goor </small></h6><p>Pipe Coating Plant <br> Design and Manufacture</p>"></span>
+
+              <span class="mapIcon germany" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="<img src='assets/images/gn-germany.jpg'><h6>GERMANY,  <small>Mukran </small></h6><p>Concrete Weight Coating</p>"></span>
+
+              <span class="mapIcon italy" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="<img src='assets/images/gn-wasco.jpg'><h6>ITALY <small> </small></h6><p></p>"></span>
+
+              <span class="mapIcon greece" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="<img src='assets/images/gn-greece.jpg'><h6>GREECE,  <small>Thisvi </small></h6><p>Concrete Weight Coating</p>"></span>
+
+              <span class="mapIcon iraq" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="<img src='assets/images/gn-wasco.jpg'><h6>IRAQ <small> </small></h6><p></p>"></span>
+
+              <span class="mapIcon qatar" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="<img src='assets/images/gn-wasco.jpg'><h6>QATAR <small> </small></h6><p></p>"></span>
+
+              <span class="mapIcon dubai" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="<img src='assets/images/gn-dubai.jpg'><h6>UNITED ARAB EMIRATES, <small> Jafza, Dubai </small></h6><p>Engineering and Fabrication</p>"></span>
+
+              <span class="mapIcon nigeria" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="<img src='assets/images/gn-wasco.jpg'><h6> Nigeria<small> </small></h6><p></p>"></span>
+
+              <span class="mapIcon india" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="<img src='assets/images/gn-india.jpg'><h6>India <small> </small></h6><p></p>"></span>
+
+              <span class="mapIcon china" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="<img src='assets/images/gn-wasco.jpg'><h6>CHINA,  <small>Beijing </small></h6><p>Corrosion Coating</p>"></span>
+
+              <span class="mapIcon malaysia" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="<img src='assets/images/gn-malaysia.jpg'><h6>MALAYSIA, <small>Kuala Lumpur Corporate Headquaters  </small></h6> <p class='d-flex justify-content-between'><span><b>Kuatan,</b> Pahang</span> <span>Corrosion Coating</span></p> <p> Insulation Coating <br> Concrete Weight Coating <br> Anode Foundry</p> <h6></h6> <p class='d-flex justify-content-between'><span><b>Sabah,</b> Kota Kinabalu</span> <span>SSAW Pipe MILL</span></p>"></span>
+
+              <span class="mapIcon singapore" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="<img src='assets/images/gn-singapore.jpg'><h6>SINGAPORE <small> </small></h6><p>Engineering and Fabrication</p>"></span>
+
+              <span class="mapIcon indonesia" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="<img src='assets/images/gn-indonesia.jpg'><h6>INDONESIA, <small>Batam  </small></h6><p>Engineering and Fabrication</p>"></span>
+
+              <span class="mapIcon australia" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="<img src='assets/images/gn-wasco.jpg'><h6>Australia <small> </small></h6><p></p>"></span>
             </div>
-            <div class="tab-pane fade" id="pipeCoating" role="tabpanel" aria-labelledby="pipeCoating-tab">
-              <img src="assets/images/globalNetwork-PipeCoating.png" alt="">
+            <div class="tab-pane" id="pipeCoating" role="tabpanel" aria-labelledby="pipeCoating-tab">
+              <img src="assets/images/globalNetwork-map.png" alt="">
+              <span class="mapIcon canada" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="<img src='assets/images/gn-canada.jpg'><h6>CANADA, <small>Regina, Saskatchewan</small></h6><p>Corrosion Coating</p>"></span>
+
+              <span class="mapIcon usa" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="<img src='assets/images/gn-usa.jpg'><h6>UNITED STATES, <small>New Iberia, Louisiana</small></h6><p>Corrosion Coating <br> Insulation Coating <br> Concrete Weight Coating</p>"></span>
+
+              <span class="mapIcon germany" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="<img src='assets/images/gn-germany.jpg'><h6>GERMANY,  <small>Mukran </small></h6><p>Concrete Weight Coating</p>"></span>
+
+              <span class="mapIcon greece" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="<img src='assets/images/gn-greece.jpg'><h6>GREECE,  <small>Thisvi </small></h6><p>Concrete Weight Coating</p>"></span>
+
+              <span class="mapIcon qatar" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="<img src='assets/images/gn-wasco.jpg'><h6>QATAR <small> </small></h6><p></p>"></span>
+
+              <span class="mapIcon india" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="<img src='assets/images/gn-india.jpg'><h6>India <small> </small></h6><p></p>"></span>
+
+              <span class="mapIcon china" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="<img src='assets/images/gn-wasco.jpg'><h6>CHINA,  <small>Beijing </small></h6><p>Corrosion Coating</p>"></span>
+
+              <span class="mapIcon malaysia" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="<img src='assets/images/gn-malaysia.jpg'><h6>MALAYSIA, <small>Kuala Lumpur Corporate Headquaters  </small></h6> <p class='d-flex justify-content-between'><span><b>Kuatan,</b> Pahang</span> <span>Corrosion Coating</span></p> <p> Insulation Coating <br> Concrete Weight Coating <br> Anode Foundry</p> <h6></h6> <p class='d-flex justify-content-between'><span><b>Sabah,</b> Kota Kinabalu</span> <span>SSAW Pipe MILL</span></p>"></span>
+
+              <span class="mapIcon indonesia" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="<img src='assets/images/gn-indonesia.jpg'><h6>INDONESIA, <small>Batam  </small></h6><p>Engineering and Fabrication</p>"></span>
             </div>
-            <div class="tab-pane fade" id="assetIntegrity" role="tabpanel" aria-labelledby="assetIntegrity-tab">
-              <img src="assets/images/globalNetwork-img3.png" alt="">
+            <div class="tab-pane" id="assetIntegrity" role="tabpanel" aria-labelledby="assetIntegrity-tab">
+              <img src="assets/images/globalNetwork-map.png" alt="">
+              <span class="mapIcon malaysia" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="<img src='assets/images/gn-malaysia.jpg'><h6>MALAYSIA, <small>Kuala Lumpur Corporate Headquaters  </small></h6> <p class='d-flex justify-content-between'><span><b>Kuatan,</b> Pahang</span> <span>Corrosion Coating</span></p> <p> Insulation Coating <br> Concrete Weight Coating <br> Anode Foundry</p> <h6></h6> <p class='d-flex justify-content-between'><span><b>Sabah,</b> Kota Kinabalu</span> <span>SSAW Pipe MILL</span></p>"></span>
             </div>
-            <div class="tab-pane fade" id="pipeManufacturing" role="tabpanel" aria-labelledby="pipeManufacturing-tab">
-              <img src="assets/images/globalNetwork-img1.png" alt="">
+            <div class="tab-pane" id="pipeManufacturing" role="tabpanel" aria-labelledby="pipeManufacturing-tab">
+              <img src="assets/images/globalNetwork-map.png" alt="">
+              <span class="mapIcon malaysia" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="<img src='assets/images/gn-malaysia.jpg'><h6>MALAYSIA, <small>Kuala Lumpur Corporate Headquaters  </small></h6> <p class='d-flex justify-content-between'><span><b>Kuatan,</b> Pahang</span> <span>Corrosion Coating</span></p> <p> Insulation Coating <br> Concrete Weight Coating <br> Anode Foundry</p> <h6></h6> <p class='d-flex justify-content-between'><span><b>Sabah,</b> Kota Kinabalu</span> <span>SSAW Pipe MILL</span></p>"></span>
             </div>
-            <div class="tab-pane fade" id="engineeringSolution" role="tabpanel" aria-labelledby="engineeringSolution-tab">
-              <img src="assets/images/globalNetwork-img3.png" alt="">
+            <div class="tab-pane" id="engineeringSolution" role="tabpanel" aria-labelledby="engineeringSolution-tab">
+              <img src="assets/images/globalNetwork-map.png" alt="">
+              <span class="mapIcon malaysia" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="<img src='assets/images/gn-malaysia.jpg'><h6>MALAYSIA, <small>Kuala Lumpur Corporate Headquaters  </small></h6> <p class='d-flex justify-content-between'><span><b>Kuatan,</b> Pahang</span> <span>Corrosion Coating</span></p> <p> Insulation Coating <br> Concrete Weight Coating <br> Anode Foundry</p> <h6></h6> <p class='d-flex justify-content-between'><span><b>Sabah,</b> Kota Kinabalu</span> <span>SSAW Pipe MILL</span></p>"></span>
+
+              <span class="mapIcon singapore" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="<img src='assets/images/gn-singapore.jpg'><h6>SINGAPORE <small> </small></h6><p>Engineering and Fabrication</p>"></span>
             </div>
-            <div class="tab-pane fade" id="onshoreInstallations" role="tabpanel" aria-labelledby="onshoreInstallations-tab">
-              <img src="assets/images/globalNetwork-img1.png" alt="">
+            <div class="tab-pane" id="onshoreInstallations" role="tabpanel" aria-labelledby="onshoreInstallations-tab">
+              <img src="assets/images/globalNetwork-map.png" alt="">
+              <span class="mapIcon malaysia" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="<img src='assets/images/gn-malaysia.jpg'><h6>MALAYSIA, <small>Kuala Lumpur Corporate Headquaters  </small></h6> <p class='d-flex justify-content-between'><span><b>Kuatan,</b> Pahang</span> <span>Corrosion Coating</span></p> <p> Insulation Coating <br> Concrete Weight Coating <br> Anode Foundry</p> <h6></h6> <p class='d-flex justify-content-between'><span><b>Sabah,</b> Kota Kinabalu</span> <span>SSAW Pipe MILL</span></p>"></span>
+
+              <span class="mapIcon singapore" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="<img src='assets/images/gn-singapore.jpg'><h6>SINGAPORE <small> </small></h6><p>Engineering and Fabrication</p>"></span>
             </div>
-            <div class="tab-pane fade" id="e-HouseBuilding" role="tabpanel" aria-labelledby="e-HouseBuilding-tab">
-              <img src="assets/images/globalNetwork-img2.png" alt="">
+            <div class="tab-pane" id="e-HouseBuilding" role="tabpanel" aria-labelledby="e-HouseBuilding-tab">
+              <img src="assets/images/globalNetwork-map.png" alt="">
+              <span class="mapIcon malaysia" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="<img src='assets/images/gn-malaysia.jpg'><h6>MALAYSIA, <small>Kuala Lumpur Corporate Headquaters  </small></h6> <p class='d-flex justify-content-between'><span><b>Kuatan,</b> Pahang</span> <span>Corrosion Coating</span></p> <p> Insulation Coating <br> Concrete Weight Coating <br> Anode Foundry</p> <h6></h6> <p class='d-flex justify-content-between'><span><b>Sabah,</b> Kota Kinabalu</span> <span>SSAW Pipe MILL</span></p>"></span>
+
+              <span class="mapIcon singapore" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="<img src='assets/images/gn-singapore.jpg'><h6>SINGAPORE <small> </small></h6><p>Engineering and Fabrication</p>"></span>
             </div>
-            <div class="tab-pane fade" id="compressionPowerGen" role="tabpanel" aria-labelledby="compressionPowerGen-tab">
-              <img src="assets/images/globalNetwork-img3.png" alt="">
+            <div class="tab-pane" id="compressionPowerGen" role="tabpanel" aria-labelledby="compressionPowerGen-tab">
+              <img src="assets/images/globalNetwork-map.png" alt="">
+              <span class="mapIcon malaysia" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="<img src='assets/images/gn-malaysia.jpg'><h6>MALAYSIA, <small>Kuala Lumpur Corporate Headquaters  </small></h6> <p class='d-flex justify-content-between'><span><b>Kuatan,</b> Pahang</span> <span>Corrosion Coating</span></p> <p> Insulation Coating <br> Concrete Weight Coating <br> Anode Foundry</p> <h6></h6> <p class='d-flex justify-content-between'><span><b>Sabah,</b> Kota Kinabalu</span> <span>SSAW Pipe MILL</span></p>"></span>
+
+              <span class="mapIcon singapore" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="<img src='assets/images/gn-singapore.jpg'><h6>SINGAPORE <small> </small></h6><p>Engineering and Fabrication</p>"></span>
             </div>
-            <div class="tab-pane fade" id="generalFabrication" role="tabpanel" aria-labelledby="generalFabrication-tab">
-              <img src="assets/images/globalNetwork-img1.png" alt="">
+            <div class="tab-pane" id="generalFabrication" role="tabpanel" aria-labelledby="generalFabrication-tab">
+              <img src="assets/images/globalNetwork-map.png" alt="">
+              <span class="mapIcon malaysia" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="<img src='assets/images/gn-malaysia.jpg'><h6>MALAYSIA, <small>Kuala Lumpur Corporate Headquaters  </small></h6> <p class='d-flex justify-content-between'><span><b>Kuatan,</b> Pahang</span> <span>Corrosion Coating</span></p> <p> Insulation Coating <br> Concrete Weight Coating <br> Anode Foundry</p> <h6></h6> <p class='d-flex justify-content-between'><span><b>Sabah,</b> Kota Kinabalu</span> <span>SSAW Pipe MILL</span></p>"></span>
+
+              <span class="mapIcon singapore" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="<img src='assets/images/gn-singapore.jpg'><h6>SINGAPORE <small> </small></h6><p>Engineering and Fabrication</p>"></span>
             </div>
-            <div class="tab-pane fade" id="aftermarketServices" role="tabpanel" aria-labelledby="aftermarketServices-tab">
-              <img src="assets/images/globalNetwork-img2.png" alt="">
+            <div class="tab-pane" id="aftermarketServices" role="tabpanel" aria-labelledby="aftermarketServices-tab">
+              <img src="assets/images/globalNetwork-map.png" alt="">
+              <span class="mapIcon dubai" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="<img src='assets/images/gn-dubai.jpg'><h6>UNITED ARAB EMIRATES, <small> Jafza, Dubai </small></h6><p>Engineering and Fabrication</p>"></span>
+
+              <span class="mapIcon australia" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="<img src='assets/images/gn-wasco.jpg'><h6>Australia <small> </small></h6><p></p>"></span>
             </div>
-            <div class="tab-pane fade" id="leasingRental" role="tabpanel" aria-labelledby="leasingRental-tab">
-              <img src="assets/images/globalNetwork-img3.png" alt="">
+            <div class="tab-pane" id="leasingRental" role="tabpanel" aria-labelledby="leasingRental-tab">
+              <img src="assets/images/globalNetwork-map.png" alt="">
+              <span class="mapIcon dubai" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="<img src='assets/images/gn-dubai.jpg'><h6>UNITED ARAB EMIRATES, <small> Jafza, Dubai </small></h6><p>Engineering and Fabrication</p>"></span>
             </div>
-            <div class="tab-pane fade" id="engineeringProcurement" role="tabpanel" aria-labelledby="engineeringProcurement-tab">
-              <img src="assets/images/globalNetwork-img1.png" alt="">
+            <div class="tab-pane" id="engineeringProcurement" role="tabpanel" aria-labelledby="engineeringProcurement-tab">
+              <img src="assets/images/globalNetwork-map.png" alt="">
+              <span class="mapIcon malaysia" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="<img src='assets/images/gn-malaysia.jpg'><h6>MALAYSIA, <small>Kuala Lumpur Corporate Headquaters  </small></h6> <p class='d-flex justify-content-between'><span><b>Kuatan,</b> Pahang</span> <span>Corrosion Coating</span></p> <p> Insulation Coating <br> Concrete Weight Coating <br> Anode Foundry</p> <h6></h6> <p class='d-flex justify-content-between'><span><b>Sabah,</b> Kota Kinabalu</span> <span>SSAW Pipe MILL</span></p>"></span>
             </div>
-            <div class="tab-pane fade" id="engineeringFabrication" role="tabpanel" aria-labelledby="engineeringFabrication-tab">
-              <img src="assets/images/globalNetwork-img2.png" alt="">
+            <div class="tab-pane" id="engineeringFabrication" role="tabpanel" aria-labelledby="engineeringFabrication-tab">
+              <img src="assets/images/globalNetwork-map.png" alt="">
+              <span class="mapIcon nether" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="<img src='assets/images/gn-nether.jpg'><h6>NETHERLANDS,  <small>Goor </small></h6><p>Pipe Coating Plant <br> Design and Manufacture</p>"></span>
             </div>
           </div>
           <p class="d-block text-center mt-5 ">For our business address, please <a href="#!" class="underline">click here</a></p>
@@ -214,6 +287,14 @@
         <p>Copyright &copy; WASCO ENERGY GROUP OF COMPANIES. All rights reserved.</p>
       </div>
     </footer>
+    <div class="totop"><img src="assets/images/arrow-up.png"></div>
+    <script src="assets/js/jquery-3.4.1.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script> 
+    <script src="assets/js/css3-animate-it.js"></script>
+    <script src="assets/js/main.js"></script>
   </body>
 </html>
+
+
+
 
