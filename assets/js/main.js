@@ -76,4 +76,14 @@ for (var d=0;d<b._$pre.length;d++){var e=b._$pre[d],f=a(e),g={x:e.dataset.origPo
       };
       // Run the show!
       filterList.init();
-});   
+});  
+
+
+
+
+// bootstrap tooltip active
+var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl, {
+  })
+})
