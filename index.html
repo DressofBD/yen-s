@@ -26,14 +26,19 @@
                 <img src="assets/images/logo.png" alt="Logo">
               </a>
             </div>
-            <div class="animated fadeInRightShort d-flex align-items-center top-src">
+            <div class="animated fadeInRightShort d-lg-flex align-items-center top-src">
+              <a href="#!" class="d-flex align-items-center send-mail">
+                <span class="d-flex align-items-center justify-content-center">
+                  <img src="assets/images/linkedin.png" alt="linkedin">
+                </span>
+              </a>
               <a href="#!" class="d-flex align-items-center send-mail">
                 <span class="d-flex align-items-center justify-content-center">
                   <img src="assets/images/icon-email.png" alt="send email">
                 </span>
-                <p>Send us a Message</p>
+                <p class="d-none d-lg-block">Enquiry</p>
               </a>
-              <form class="header-form">
+              <form class="header-form d-none d-lg-block">
                 <input type="text" name="" placeholder="Search..." required>
                 <button type="submit">
                   <img src="assets/images/icon-search.png" alt="search">
@@ -53,13 +58,24 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                   <ul class="navbar-nav justify-content-between w-100">
+                    <li class="nav-item d-block d-lg-none">
+                      <form class="header-form">
+                        <input type="text" name="" placeholder="Search..." required>
+                        <button type="submit">
+                          <img src="assets/images/icon-search.png" alt="search">
+                        </button>
+                      </form>
+                    </li>
                     <li class="nav-item dropdown">
-                      <a class="nav-link" href="about.html">About Us</a>
+                      <a class="nav-link d-none d-lg-block" href="about.html">About Us</a>
+                      <a class="nav-link d-block d-lg-none" href="#!">About Us</a>
                       <ul class="dropdown-menu">
+                        <li class="d-block d-lg-none"><a href="about.html">About Us</a></li>
                         <li><a href="ourPhilosophy.html">Our Philosophy</a></li>
                         <li><a href="coreValues.html">Core Values</a></li>
-                        <li><a href="corruptionPolicy.html">Anti-Bribery & Corruption Policy</a></li>
-                        <li><a href="whistleblowingPolicy.html">Whistleblowing Policy</a></li>
+                        <li><a href="qhse.html">QHSE</a></li>
+                        <li><a href="assets/pdf/anti-bribery-corruption-policy.pdf">Anti-Bribery & Corruption Policy</a></li>
+                        <li><a href="assets/pdf/whistleblowing-policy.pdf">Whistleblowing Policy</a></li>
                         <li><a href="newsEvents.html">News & Events</a></li>
                         <li><a href="investorRelations.html">Investor Relations</a></li>
                         <li><a href="globalNetwork.html">Our Global Network</a></li>
@@ -67,27 +83,41 @@
                       </ul>
                     </li>
                     <li class="nav-item dropdown">
-                      <a class="nav-link" href="whatWeDo.html">What We Do</a>
+                      <a class="nav-link d-none d-lg-block" href="whatWeDo.html">What We Do</a>
+                      <a class="nav-link d-block d-lg-none" href="#!">What We Do</a>
                       <ul class="dropdown-menu">
+                        <li class="d-block d-lg-none"><a href="whatWeDo.html">What We Do</a></li>
                         <li><a href="pipelineServices.html">Pipeline Services</a></li>
-                        <li><a href="efServices.html">Engineering & Fabrication Services</a></li>
+                        <li class="nav-item dropdown">
+                          <a href="efServices.html" class="d-none d-lg-block">Engineering & Fabrication Services</a>
+                          <a href="#!" class="d-block d-lg-none">Engineering & Fabrication Services</a>
+                          <ul class="dropdown-menu dropdown-menu2">
+                            <li class="d-block d-lg-none"><a href="efServices.html">Engineering & Fabrication Services</a></li>
+                            <li><a href="modulesFpso.html">Modules for FPSO, FSRU, FLNG, MOPU, Offshore and Onshore</a></li>
+                            <li><a href="e-houseSubstation.html">E-house, Substation and Living Quarters / Accommodation Module</a></li>
+                            <li><a href="compressionPowergen.html">Compression and Powergen</a></li>
+                            <li><a href="generalFabrication.html">General Fabrication</a></li>
+                            <li><a href="aftermarketServices.html">Aftermarket and Services</a></li>
+                            <li><a href="leasingRentalBoom.html">Leasing and Rental Boom</a></li>
+                            <li><a href="engineeringSolutions.html">Engineering Solutions</a></li>
+                          </ul>
+                        </li>
                         <li><a href="medCon.html">Med-Con</a></li>
                         <li><a href="trackRecords.html">Track Records</a></li>
                       </ul>
                     </li>
-                    <li class="nav-item dropdown">
+                    <li class="nav-item">
                       <a class="nav-link" href="sustainability.html">Sustainability</a>
-                      <ul class="dropdown-menu">
-                        <li><a href="qhse.html">QHSE</a></li>
-                      </ul>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="innovation.html">Innovation</a>
+                      <a class="nav-link" href="digitalization.html">Digitalization</a>
                     </li>
                     <li class="nav-item dropdown">
-                      <a class="nav-link" href="contact.html">Contact Us</a>
+                      <a class="nav-link d-none d-lg-block" href="contact.html">Contact Us</a>
+                      <a class="nav-link d-block d-lg-none" href="#!">Contact Us</a>
                       <ul class="dropdown-menu">
-                        <li><a href="regionalOffices.html">Regional Offices</a></li>
+                        <li class="d-block d-lg-none"><a href="contact.html">Contact Us</a></li>
+                        <li><a href="regionalOffices.html">Global Offices</a></li>
                         <li><a href="enquiryForm.html">Enquiry Form</a></li>
                         <li><a href="careers.html">Careers</a></li>
                       </ul>
@@ -114,28 +144,28 @@
               <div class="carousel-container">
                 <h1>Welcome to <br>WASCO</h1>
                 <div class="carousel-desc">
-                  <h4>100% Effort To Achieve Zero Carbon</h4>
-                  <p>As the leading integrated energy group, we aim to provide a better future for the next generation. Sustainability initiatives are taken to achieve our goal of bringing carbon emissions down.</p>
+                  <h4>Net Zero Carbon Emissions by 2026</h4>
+                  <p>As the leading integrated energy group, we are committed to make a positive change for a more sustainable future. We aspire to attain this goal by integrating sustainable practices into our services and operations.</p>
                 </div>
               </div>
             </div>
             <div class="carousel-item">
               <img src="assets/images/slide-2.jpg" class="d-block w-100" alt="...">
               <div class="carousel-container">
-                <h1>Lorem Ipsum  <br>Amit</h1>
+                <h1 class="d-none d-mobile">Delivering World-Class Engineering & Fabrication Services</h1>
                 <div class="carousel-desc">
-                  <h4>90% Effort To Achieve Carbon</h4>
-                  <p>As the leading integrated energy group, we aim to provide a better future for the next generation. Sustainability initiatives are taken to achieve our goal of bringing carbon emissions down.</p>
+                  <h4>Delivering World-Class Engineering & Fabrication Services</h4>
+                  <p>Comprehensive solutions covering engineering design, procurement, packaging, general fabrication, installation, commissioning, operation and maintenance (O&M) services.</p>
                 </div>
               </div>
             </div>
             <div class="carousel-item">
               <img src="assets/images/slide-3.jpg" class="d-block w-100" alt="...">
               <div class="carousel-container">
-                <h1>Dolor Sit <br>Lorem Ipsum</h1>
+                <h1 class="d-none d-mobile">Over 22,000km of pipelines, 4 continents, 25 countries</h1>
                 <div class="carousel-desc">
-                  <h4>Lorem Ipsumeve Zero Carbon</h4>
-                  <p>Integrated energy group, we aim to provide a better future for the next generation. Sustainability initiatives are taken to achieve our goal of bringing carbon emissions down.</p>
+                  <h4>Our expertise in coating over 22,000 km of pipelines across 4 continents in 25 countries.</h4>
+                  <p>Wasco’s Pipeline Services Division is renowned for its expertise in pipe coating, pipe manufacturing and corrosion protection solutions.</p>
                 </div>
               </div>
             </div>
@@ -170,25 +200,25 @@
                 <li class="animated fadeInLeftShort" data-id='1'>
                   <img src="assets/images/home-graph-1.png" alt="">
                   <h4>Engineering & Fabrication Services</h4>
-                  <p>We provide bespoke engineering design, procurement, packaging, general fabrication, installation and commissioning, as well as operation and maintenance (O&M) services</p>
-                  <a href="#!">Learn More <i class="fa fa-arrow-right"></i></a>
+                  <p>Personalised engineering design, procurement, packaging, general fabrication, installation and commissioning, operation and maintenance (O&M) services.</p>
+                  <a href="efServices.html">Learn More <i class="fa fa-arrow-right"></i></a>
                 </li>
                 <li class="animated fadeInRightShort" data-id='2'>
                   <img src="assets/images/home-graph-2.png" alt="">
                   <h4>EPCC Pipeline & Facilities</h4>
-                  <p>Established in collaboration with Citra Panji Manunggal for the sole purpose of providing a global one-stop shop for engineering, procurement, construction and commissioning (EPCC) of onshore and nearshore pipelines and pipeline facilities.</p>
+                  <p>One-stop shop for engineering procurement, construction and commissioning (EPCC) of onshore and nearshore pipelines, and pipeline services.</p>
                   <a href="#!">Learn More <i class="fa fa-arrow-right"></i></a>
                 </li>
                 <li class="animated fadeInLeftShort" data-id='3'>
                   <img src="assets/images/home-graph-3.png" alt="">
                   <h4>Pipeline Services</h4>
-                  <p>We are a global operator providing a full range of pre-commissioning, commissioning, maintenance and decommissioning services for both onshore and offshore facilities.</p>
-                  <a href="#!">Learn More <i class="fa fa-arrow-right"></i></a>
+                  <p>Full range of pre-commissioning, commissioning, maintenance and decommissioning services for onshore and offshore facilities.</p>
+                  <a href="pipelineServices.html">Learn More <i class="fa fa-arrow-right"></i></a>
                 </li>
                 <li class="animated fadeInRightShort" data-id='4'>
                   <img src="assets/images/home-graph-1.png" alt="">
                   <h4>Asset Integrity Services</h4>
-                  <p>To date, our key areas of expertise include corrosion protection to life cycle extension and maintenance inspection.</p>
+                  <p>Corrosion protection, life cycle extension and maintenance inspection.</p>
                   <a href="#!">Learn More <i class="fa fa-arrow-right"></i></a>
                 </li>
               </ul>
@@ -208,7 +238,7 @@
                       <h3 class="s-heading">Our Agenda On Sustainability</h3>
                       <div class="brdr b-green"></div>
                       <p>We work with you to ensure that the journey towards your objectives is a smooth one</p>
-                      <a href="#!" class="btn1">View More <i class="fa fa-arrow-right"></i></a>
+                      <a href="sustainability.html" class="btn1">View More <i class="fa fa-arrow-right"></i></a>
                     </div>
                   </div>
                 </div>
@@ -220,10 +250,10 @@
                   </div>
                   <div class="col-md-5">
                     <div class="agenda-sus-block">
-                      <h3 class="s-heading">Our Agenda On Sustainability</h3>
+                      <h3 class="s-heading">Our Journey of Digital Transformation</h3>
                       <div class="brdr b-green"></div>
-                      <p>We work with you to ensure that the journey towards your objectives is a smooth one</p>
-                      <a href="#!" class="btn1">View More <i class="fa fa-arrow-right"></i></a>
+                      <p>Pending copy from TP</p>
+                      <a href="innovation.html" class="btn1">View More <i class="fa fa-arrow-right"></i></a>
                     </div>
                   </div>
                 </div>
@@ -273,7 +303,7 @@
                   </div>
                 </div>
                 <div class="animated fadeInRightShort d-flex align-items-stretch justify-content-between">
-                  <div class="tr-block tr-block3-3">
+                  <div class="tr-block tr-block3-3" onclick="window.location.href='trackRecords.html'">
                     <div class="tr-block-desc">
                       <h4>Engineering</h4>
                     </div>
@@ -286,7 +316,7 @@
                 </div>
               </div>
               <div class="animatedParent animateOnce tr-block tr-block4">
-                <div class="animated fadeInRightShort">
+                <div class="animated fadeInRightShort" onclick="window.location.href='trackRecords.html'">
                   <div class="tr-block-desc">
                     <h4>Pipe Coating</h4>
                   </div>
@@ -301,7 +331,7 @@
           <div class="animatedParent animateOnce container text-center">
             <h5 class="animated fadeInDownShort">Interested To Know More?</h5>
             <p class="animated fadeInUpShort blue">Our technicians can provide you with the best solutions for you.</p>
-            <a href="#!" class="animated fadeInDownShort bg-blue btn1">Get In Touch <i class="fa fa-arrow-right"></i></a>
+            <a href="regionalOffices.html" class="animated fadeInDownShort bg-blue btn1">Get In Touch <i class="fa fa-arrow-right"></i></a>
           </div>
         </div>
       </div>

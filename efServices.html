@@ -26,14 +26,19 @@
                 <img src="assets/images/logo.png" alt="Logo">
               </a>
             </div>
-            <div class="animated fadeInRightShort d-flex align-items-center top-src">
+            <div class="animated fadeInRightShort d-lg-flex align-items-center top-src">
+              <a href="#!" class="d-flex align-items-center send-mail">
+                <span class="d-flex align-items-center justify-content-center">
+                  <img src="assets/images/linkedin.png" alt="linkedin">
+                </span>
+              </a>
               <a href="#!" class="d-flex align-items-center send-mail">
                 <span class="d-flex align-items-center justify-content-center">
                   <img src="assets/images/icon-email.png" alt="send email">
                 </span>
-                <p>Send us a Message</p>
+                <p class="d-none d-lg-block">Enquiry</p>
               </a>
-              <form class="header-form">
+              <form class="header-form d-none d-lg-block">
                 <input type="text" name="" placeholder="Search..." required>
                 <button type="submit">
                   <img src="assets/images/icon-search.png" alt="search">
@@ -53,13 +58,24 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                   <ul class="navbar-nav justify-content-between w-100">
+                    <li class="nav-item d-block d-lg-none">
+                      <form class="header-form">
+                        <input type="text" name="" placeholder="Search..." required>
+                        <button type="submit">
+                          <img src="assets/images/icon-search.png" alt="search">
+                        </button>
+                      </form>
+                    </li>
                     <li class="nav-item dropdown">
-                      <a class="nav-link" href="about.html">About Us</a>
+                      <a class="nav-link d-none d-lg-block" href="about.html">About Us</a>
+                      <a class="nav-link d-block d-lg-none" href="#!">About Us</a>
                       <ul class="dropdown-menu">
+                        <li class="d-block d-lg-none"><a href="about.html">About Us</a></li>
                         <li><a href="ourPhilosophy.html">Our Philosophy</a></li>
                         <li><a href="coreValues.html">Core Values</a></li>
-                        <li><a href="corruptionPolicy.html">Anti-Bribery & Corruption Policy</a></li>
-                        <li><a href="whistleblowingPolicy.html">Whistleblowing Policy</a></li>
+                        <li><a href="qhse.html">QHSE</a></li>
+                        <li><a href="assets/pdf/anti-bribery-corruption-policy.pdf">Anti-Bribery & Corruption Policy</a></li>
+                        <li><a href="assets/pdf/whistleblowing-policy.pdf">Whistleblowing Policy</a></li>
                         <li><a href="newsEvents.html">News & Events</a></li>
                         <li><a href="investorRelations.html">Investor Relations</a></li>
                         <li><a href="globalNetwork.html">Our Global Network</a></li>
@@ -67,27 +83,41 @@
                       </ul>
                     </li>
                     <li class="nav-item dropdown">
-                      <a class="nav-link active" href="whatWeDo.html">What We Do</a>
+                      <a class="nav-link d-none d-lg-block" href="whatWeDo.html">What We Do</a>
+                      <a class="nav-link d-block d-lg-none" href="#!">What We Do</a>
                       <ul class="dropdown-menu">
+                        <li class="d-block d-lg-none"><a href="whatWeDo.html">What We Do</a></li>
                         <li><a href="pipelineServices.html">Pipeline Services</a></li>
-                        <li><a href="efServices.html" class="active">Engineering & Fabrication Services</a></li>
+                        <li class="nav-item dropdown">
+                          <a href="efServices.html" class="d-none d-lg-block active">Engineering & Fabrication Services</a>
+                          <a href="#!" class="d-block d-lg-none active">Engineering & Fabrication Services</a>
+                          <ul class="dropdown-menu dropdown-menu2">
+                            <li class="d-block d-lg-none"><a href="efServices.html">Engineering & Fabrication Services</a></li>
+                            <li><a href="modulesFpso.html">Modules for FPSO, FSRU, FLNG, MOPU, Offshore and Onshore</a></li>
+                            <li><a href="e-houseSubstation.html">E-house, Substation and Living Quarters / Accommodation Module</a></li>
+                            <li><a href="compressionPowergen.html">Compression and Powergen</a></li>
+                            <li><a href="generalFabrication.html">General Fabrication</a></li>
+                            <li><a href="aftermarketServices.html">Aftermarket and Services</a></li>
+                            <li><a href="leasingRentalBoom.html">Leasing and Rental Boom</a></li>
+                            <li><a href="engineeringSolutions.html">Engineering Solutions</a></li>
+                          </ul>
+                        </li>
                         <li><a href="medCon.html">Med-Con</a></li>
                         <li><a href="trackRecords.html">Track Records</a></li>
                       </ul>
                     </li>
-                    <li class="nav-item dropdown">
+                    <li class="nav-item">
                       <a class="nav-link" href="sustainability.html">Sustainability</a>
-                      <ul class="dropdown-menu">
-                        <li><a href="qhse.html">QHSE</a></li>
-                      </ul>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="innovation.html">Innovation</a>
+                      <a class="nav-link" href="digitalization.html">Digitalization</a>
                     </li>
                     <li class="nav-item dropdown">
-                      <a class="nav-link" href="contact.html">Contact Us</a>
+                      <a class="nav-link d-none d-lg-block" href="contact.html">Contact Us</a>
+                      <a class="nav-link d-block d-lg-none" href="#!">Contact Us</a>
                       <ul class="dropdown-menu">
-                        <li><a href="regionalOffices.html">Regional Offices</a></li>
+                        <li class="d-block d-lg-none"><a href="contact.html">Contact Us</a></li>
+                        <li><a href="regionalOffices.html">Global Offices</a></li>
                         <li><a href="enquiryForm.html">Enquiry Form</a></li>
                         <li><a href="careers.html">Careers</a></li>
                       </ul>
@@ -116,23 +146,23 @@
               <div class="brdr b-yellow"></div>
             </div>
             <div class="animated fadeInRightShort col-sm-8">
-              <p>Wasco Energy has the correct expertise and experience when It comes to meeting the rigorous demands of the energy and utilities industries. We provide bespoke engineering design, procurement, packaging, general fabrication, installation and commissioning, as well as operation and maintenance (O&M) services to meet the requirements of the most demanding projects, delivering projects throughout Asia, Europe and America.</p>
+              <p>Wasco Energy provides bespoke engineering design, procurement, packaging, general fabrication, installation and commissioning, operation and maintenance (O&M) services to meet the requirements of projects throughout Asia, Europe and America.</p>
             </div>
           </div>
           <div class="row pt-5 animatedParent animateOnce">
-            <div class="col-md-6 mb-4 mb-md-5 animated fadeInLeftShort">
+            <div class="col-md-4 mb-4 mb-md-4 animated fadeInLeftShort">
               <div class="service-block bg-yellow">
-                <img src="assets/images/pipelineServices-img1.jpg" class="w-100" alt="">
+                <img src="assets/images/efServices-img1.jpg" class="w-100" alt="">
                 <div class="service-block-desc">
                   <h6>Products & Services</h6>
                   <div class="brdr2"></div>
                 </div>
-                <a href="#!" class="more float-end pb-3 justify-content-end">Learn More <i class="fa fa-arrow-right bg-blue white"></i></a>
+                <a href="products&Services.html" class="more float-end pb-3 justify-content-end">Learn More <i class="fa fa-arrow-right bg-blue white"></i></a>
               </div>
             </div>
-            <div class="col-md-6 mb-4 mb-md-5 animated fadeInRightShort">
+            <div class="col-md-4 mb-4 mb-md-4 animated fadeInRightShort">
               <div class="service-block bg-blue">
-                <img src="assets/images/pipelineServices-img2.jpg" class="w-100" alt="">
+                <img src="assets/images/efServices-img2.jpg" class="w-100" alt="">
                 <div class="service-block-desc white">
                   <h6>Yard Capabilities</h6>
                   <div class="brdr2"></div>
@@ -140,20 +170,152 @@
                 <a href="#!" class="more float-end pb-3 white justify-content-end">Learn More <i class="fa fa-arrow-right bg-yellow blue"></i></a>
               </div>
             </div>
-            <div class="col-md-6 mb-4 mb-md-5 animated fadeInRightShort">
+            <div class="col-md-4 mb-4 mb-md-4 animated fadeInRightShort">
               <div class="service-block bg-blue">
-                <img src="assets/images/pipelineServices-img3.jpg" class="w-100" alt="">
+                <img src="assets/images/efServices-img3.jpg" class="w-100" alt="">
                 <div class="service-block-desc white">
-                  <h6>Partnership</h6>
+                  <h6>Partnerships</h6>
                   <div class="brdr2"></div>
                 </div>
-                <a href="#!" class="more float-end pb-3 white justify-content-end">Learn More <i class="fa fa-arrow-right bg-yellow blue"></i></a>
+                <a href="#!" class="more float-end pb-3 white justify-content-end" data-bs-toggle="modal" data-bs-target="#modal3">Learn More <i class="fa fa-arrow-right bg-yellow blue"></i></a>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4 mb-md-4 animated fadeInLeftShort">
+              <div class="service-block bg-yellow">
+                <img src="assets/images/efServices-img4.jpg" class="w-100" alt="">
+                <div class="service-block-desc">
+                  <h6>Key Capabilities &amp; Solutions</h6>
+                  <div class="brdr2"></div>
+                </div>
+                <a href="#!" class="more float-end pb-3 justify-content-end" data-bs-toggle="modal" data-bs-target="#modal4">Learn More <i class="fa fa-arrow-right bg-blue white"></i></a>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+    <!-- Modals 3-->
+    <div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="modal3Label" aria-hidden="true">
+      <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modal3Label">Partnerships</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <h6 class="mb-2">Partnerships</h6>
+            <p class="mb-3">Wasco Energy has strategically partnered with the best brands in the industry to further enhance our services. These partnerships provide Wasco Energy the mandate to design engineering compression solutions that can be customised to address specific and unique situations. It also gives us ready access to OEM spare parts which allows us to provide effective aftermarket services in the energy sector.</p>
+            <h6 class="mb-2">Ariel Compressors</h6>
+            <p class="mb-3">Ariel Corporation is the world's largest manufacturer of separable reciprocating gas compressors. Ariel compressors are utilized by the global energy industry to extract, process, transport, store, and distribute natural gas from the wellhead to the end-user. Ariel also provides specialized API-618 reciprocating compressors for the process industry. As the largest manufacturer of reciprocating gas compressors, Ariel sets the industry standard through expert design and manufacturing, industry-leading research and development, and unmatched customer support. Wasco Energy has been involved in distributing Ariel reciprocating compressors products and services for over 17 years and has been an Ariel Approved Distributor since 2006. </p>
+            <h6 class="mb-2">Waukesha Gas Engines</h6>
+            <p class="mb-3">Waukesha gas engines can run under high stress conditions while still having the flexibility to use multiple fuels. Waukesha engines are designed to perform reliably in isolated, mission-critical, and demanding applications. Waukesha engines meet emissions compliance levels in diverse applications around the globe. With rich and lean burn Waukesha reciprocating engine designs, we can help you make smart choices. Wasco have been supporting Waukesha gas engine products and services for over 17 years. The Waukesha gas engine driver in our compressor package design features: Long service intervals, a maintenance-friendly engine design, low fuel consumption, prolonged life of all engine components, even when using polluted fuel gases such as landfill gas, good operational safety and availability with control and monitoring systems, a broad range of commercial, industrial and municipal uses, optimised control, monitoring and information management systems, and a patented, lean mixture combustion control to minimise exhaust gas emissions while maintaining stable engine operation.</p>
+            <h6 class="mb-2">Dresser-Rand Compressors (A Siemen Business)</h6>
+            <p class="mb-3">Dresser-Rand High and Medium Speed Reciprocating Compressors (former API 11-P)
+            <br>
+            With a versatile compressor lineup in the market and a reputation for serving both standard applications and the most demanding jobs (high pressure, CO2, sour and acid gases, and floating applications), Dresser-Rand covers virtually every application. This class of reciprocating compressors is designed to ISO 13631, ISO 13707, or API 618 specifications. Dresser-Rand offers seven different models with horsepower (hp) ranging from 200 to 11,000 hp (149 to 8,203 kW), allowable rod loads from 15,400 to 90,000 psi, rated maximum speeds from 850 to 1,800 rpm, and pressures up to 8,000 psig. MOS, HOS and HOSS Models of compressors being the workhorse of Oil and Gas industry.
+            </p>
+            <h6 class="mb-2">BHGE Compressors</h6>
+            <p class="mb-3">BHGE's field proven portfolio of high-speed reciprocating (HSR) compressors deliver maximum flexibility and minimal cost in all types of gas compression applications. The full line of API 11P high-speed reciprocating (HSR) compressors provide Economic, Flexible and Reliable solutions to meet your gas compression needs. Products range from 60 hp (45 kW) to 9,000 hp (6,714 kW), with a variety of piston rod load capacities and frame stroke combinations. HSR compressors are designed to be directly connected to reciprocating natural gas engines (720 to 1,800 rpm) and electric motors (750 to 1,800 rpm). A variety of compressor frame strokes allow the compressor to be perfectly matched to the optimum driver. BHGE has added couple-free high-speed, low vibration compressors, namely CFA, CFH and CFR, which assist customers cut capital and operating costs. </p>
+            <h6 class="mb-2"></h6>
+            <p class="mb-3"></p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn bg-blue white" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modals 4-->
+    <div class="modal fade" id="modal4" tabindex="-1" aria-labelledby="modal4Label" aria-hidden="true">
+      <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modal4Label">Key Capabilities & Solutions</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <h6 class="mb-2">1. Modules for FPSO, FSRU, FLNG, Offshore and Onshore</h6>
+            <ol class="mb-3">
+              <li>Riser and Receiving Packages</li>
+              <li>Oil Separation and Stabilisation Package</li>
+              <li>Produced Water Treatment Package</li>
+              <li>Gas Compression Modules</li>
+              <li>Gas Dehydration Packages</li>
+              <li>Gas Sweetening Systems</li>
+              <li>Gas Dewpoint Packages</li>
+              <li>Water Injection Packages</li>
+              <li>Power Generation Module</li>
+              <li>Utility Systems</li>
+              <li>Pipe Rack Modules</li>
+              <li>Lab, Workshop, Laydown Modules</li>
+              <li>E-House, Substations and Living Quarters</li>
+              <li>Complete Gas Plants, Compression Station and Early Production Facilities</li>
+            </ol>
+            <h6 class="mb-2">2. E-House, Substation and Living Quarters</h6>
+            <ol class="mb-3">
+              <li>E-House for Offshore (Platforms, FPSO's and Wind Farm)</li>
+              <li>Substations for Onshore (Refinery, Petrochemical, LNG terminal, Gas Plants and Solar Farms)</li>
+              <li>Remote Instrument Room (RIR)</li>
+              <li>Field Instrument Room (FIR)</li>
+              <li>Local Equipment Room (LER)</li>
+              <li>Central Control Room (CCR)</li>
+              <li>Data Centre</li>
+              <li>Living Quarters</li>
+              <li>Other Pre-Assembled Buildings (PAB)</li>
+            </ol>
+            <h6 class="mb-2">3. Compression and PowerGen</h6>
+            <ol class="mb-3">
+              <li>Reciprocating Compressors</li>
+              <li>Centrifugal Compressors</li>
+              <li>Screw Compressors</li>
+              <li>Gas Engine Generators</li>
+            </ol>
+            <h6 class="mb-2">4. General Fabrication</h6>
+            <ol class="mb-3">
+              <li>Pre-Assembled Units(PAU) Modules</li>
+              <li>Pre-Assembled Piperack (PAR) Modules</li>
+              <li>Pre-Assembled Manifold(PAM) Modules</li>
+              <li>Modular Furnaces, Heaters and Reformer Modules</li>
+              <li>Equipment Skids</li>
+              <li>Pipe Spool Fabrication</li>
+              <li>Sub-sea Manifolds</li>
+              <li>Pipeline End Manifolds (PLEM)</li>
+              <li>Pipeline End Terminals (PLET)</li>
+              <li>Platform Decks and Structure</li>
+              <li>Pre-Assembled Steel Structures</li>
+            </ol>
+            <h6 class="mb-2">5. Aftermarket and Services</h6>
+            <ol class="mb-3">
+              <li>Field Services</li>
+              <li>Operation & Maintenance</li>
+              <li>Parts</li>
+              <li>Retrofit, Revamps and Upgrades</li>
+              <li>Installation and Commissioning</li>
+              <li>Technical Support</li>
+            </ol>
+            <h6 class="mb-2">6. Leasing and Rental</h6>
+            <ol class="mb-3">
+              <li>Rental of Gas Compression Packages</li>
+              <li>Rental of PowerGen Packages</li>
+              <li>Complete Gas Plants and Topside Modules - BOO, BOT, BOOT Models</li>
+            </ol>
+            <h6 class="mb-2">7. Aftermarket and Services</h6>
+            <ol class="mb-3">
+              <li>Conceptual Studies</li>
+              <li>Front End Engineering Design (FEED)</li>
+              <li>Detailed Engineering</li>
+              <li>Commissioning and Start-up</li>
+              <li>Process Optimisation, Debottlenecking, Capacity Upgrade</li>
+              <li>FPSO Redeployment Studies</li>
+            </ol>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn bg-blue white" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <footer class="z-9 footer">
       <div class="container text-center">
         <p>Copyright &copy; WASCO ENERGY GROUP OF COMPANIES. All rights reserved.</p>

@@ -26,14 +26,19 @@
                 <img src="assets/images/logo.png" alt="Logo">
               </a>
             </div>
-            <div class="animated fadeInRightShort d-flex align-items-center top-src">
+            <div class="animated fadeInRightShort d-lg-flex align-items-center top-src">
+              <a href="#!" class="d-flex align-items-center send-mail">
+                <span class="d-flex align-items-center justify-content-center">
+                  <img src="assets/images/linkedin.png" alt="linkedin">
+                </span>
+              </a>
               <a href="#!" class="d-flex align-items-center send-mail">
                 <span class="d-flex align-items-center justify-content-center">
                   <img src="assets/images/icon-email.png" alt="send email">
                 </span>
-                <p>Send us a Message</p>
+                <p class="d-none d-lg-block">Enquiry</p>
               </a>
-              <form class="header-form">
+              <form class="header-form d-none d-lg-block">
                 <input type="text" name="" placeholder="Search..." required>
                 <button type="submit">
                   <img src="assets/images/icon-search.png" alt="search">
@@ -53,13 +58,24 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                   <ul class="navbar-nav justify-content-between w-100">
+                    <li class="nav-item d-block d-lg-none">
+                      <form class="header-form">
+                        <input type="text" name="" placeholder="Search..." required>
+                        <button type="submit">
+                          <img src="assets/images/icon-search.png" alt="search">
+                        </button>
+                      </form>
+                    </li>
                     <li class="nav-item dropdown">
-                      <a class="nav-link active" href="about.html">About Us</a>
+                      <a class="nav-link d-none d-lg-block" href="about.html">About Us</a>
+                      <a class="nav-link d-block d-lg-none" href="#!">About Us</a>
                       <ul class="dropdown-menu">
+                        <li class="d-block d-lg-none"><a href="about.html">About Us</a></li>
                         <li><a href="ourPhilosophy.html">Our Philosophy</a></li>
                         <li><a href="coreValues.html">Core Values</a></li>
-                        <li><a href="corruptionPolicy.html">Anti-Bribery & Corruption Policy</a></li>
-                        <li><a href="whistleblowingPolicy.html">Whistleblowing Policy</a></li>
+                        <li><a href="qhse.html">QHSE</a></li>
+                        <li><a href="assets/pdf/anti-bribery-corruption-policy.pdf">Anti-Bribery & Corruption Policy</a></li>
+                        <li><a href="assets/pdf/whistleblowing-policy.pdf">Whistleblowing Policy</a></li>
                         <li><a href="newsEvents.html" class="active">News & Events</a></li>
                         <li><a href="investorRelations.html">Investor Relations</a></li>
                         <li><a href="globalNetwork.html">Our Global Network</a></li>
@@ -67,27 +83,41 @@
                       </ul>
                     </li>
                     <li class="nav-item dropdown">
-                      <a class="nav-link" href="whatWeDo.html">What We Do</a>
+                      <a class="nav-link d-none d-lg-block" href="whatWeDo.html">What We Do</a>
+                      <a class="nav-link d-block d-lg-none" href="#!">What We Do</a>
                       <ul class="dropdown-menu">
+                        <li class="d-block d-lg-none"><a href="whatWeDo.html">What We Do</a></li>
                         <li><a href="pipelineServices.html">Pipeline Services</a></li>
-                        <li><a href="efServices.html">Engineering & Fabrication Services</a></li>
+                        <li class="nav-item dropdown">
+                          <a href="efServices.html" class="d-none d-lg-block">Engineering & Fabrication Services</a>
+                          <a href="#!" class="d-block d-lg-none">Engineering & Fabrication Services</a>
+                          <ul class="dropdown-menu dropdown-menu2">
+                            <li class="d-block d-lg-none"><a href="efServices.html">Engineering & Fabrication Services</a></li>
+                            <li><a href="modulesFpso.html">Modules for FPSO, FSRU, FLNG, MOPU, Offshore and Onshore</a></li>
+                            <li><a href="e-houseSubstation.html">E-house, Substation and Living Quarters / Accommodation Module</a></li>
+                            <li><a href="compressionPowergen.html">Compression and Powergen</a></li>
+                            <li><a href="generalFabrication.html">General Fabrication</a></li>
+                            <li><a href="aftermarketServices.html">Aftermarket and Services</a></li>
+                            <li><a href="leasingRentalBoom.html">Leasing and Rental Boom</a></li>
+                            <li><a href="engineeringSolutions.html">Engineering Solutions</a></li>
+                          </ul>
+                        </li>
                         <li><a href="medCon.html">Med-Con</a></li>
                         <li><a href="trackRecords.html">Track Records</a></li>
                       </ul>
                     </li>
-                    <li class="nav-item dropdown">
+                    <li class="nav-item">
                       <a class="nav-link" href="sustainability.html">Sustainability</a>
-                      <ul class="dropdown-menu">
-                        <li><a href="qhse.html">QHSE</a></li>
-                      </ul>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="innovation.html">Innovation</a>
+                      <a class="nav-link" href="digitalization.html">Digitalization</a>
                     </li>
                     <li class="nav-item dropdown">
-                      <a class="nav-link" href="contact.html">Contact Us</a>
+                      <a class="nav-link d-none d-lg-block" href="contact.html">Contact Us</a>
+                      <a class="nav-link d-block d-lg-none" href="#!">Contact Us</a>
                       <ul class="dropdown-menu">
-                        <li><a href="regionalOffices.html">Regional Offices</a></li>
+                        <li class="d-block d-lg-none"><a href="contact.html">Contact Us</a></li>
+                        <li><a href="regionalOffices.html">Global Offices</a></li>
                         <li><a href="enquiryForm.html">Enquiry Form</a></li>
                         <li><a href="careers.html">Careers</a></li>
                       </ul>
@@ -112,6 +142,21 @@
           <ul>
             <li class="animatedParent animateOnce row d-flex justify-content-around" data-sequence='200'>
               <div class="animated fadeInLeftShort col-3 col-md-1 date" data-id='1'>
+                <b>SEP 10</b>
+                <p>2020</p>
+              </div>
+              <div class="animated fadeInLeftShort col-9 col-md-5 news-img" data-id='2'>
+                <img src="assets/images/newsEvents-img6.jpg" alt="COVID-19 Screening Booth">
+              </div>
+              <div class="animated fadeInLeftShort col-12 col-md-6 newsEvents-desc" data-id='3'>
+                <h6>Wasco and MAN Energy Solutions to Collaborate in the PTX Project in Southeast Asia</h6>
+                <p>Wasco is pleased to announce that it has signed a Memorandum of Understanding (MOU) with MAN Energy Solutions. </p>
+                <a href="assets/pdf/MOU_WE_MAN_Sept_2020.pdf" class="more">Read More <i class="fa fa-arrow-right"></i></a>
+              </div>
+            </li>
+            <li class="animatedParent animateOnce"><div class="animated growIn brdr b-yellow"></div></li>
+            <li class="animatedParent animateOnce row d-flex justify-content-around" data-sequence='200'>
+              <div class="animated fadeInLeftShort col-3 col-md-1 date" data-id='1'>
                 <b>MAY 14</b>
                 <p>2020</p>
               </div>
@@ -121,7 +166,7 @@
               <div class="animated fadeInLeftShort col-12 col-md-6 newsEvents-desc" data-id='3'>
                 <h6>COVID-19 Screening Booth</h6>
                 <p>Wasco Coatings Malaysia and Wasco Lindung recently launched its COVID-19 Screening Booth. The idea came about as a solution to the shortage of Personal Protective Equipment (PPE) situation at the hospitals with consideration on the healthcare frontliners' comfort while keeping them safe from getting infected by the coronavirus. </p>
-                <a href="#!" class="more">Read More <i class="fa fa-arrow-right"></i></a>
+                <a href="assets/pdf/COVID-19-screening-booth.pdf" class="more">Read More <i class="fa fa-arrow-right"></i></a>
               </div>
             </li>
             <li class="animatedParent animateOnce"><div class="animated growIn brdr b-yellow"></div></li>
@@ -136,7 +181,7 @@
               <div class="animated fadeInLeftShort col-12 col-md-6 newsEvents-desc" data-id='3'>
                 <h6>Rapid Medical Field Hospital Solutions</h6>
                 <p>We are living in unprecedented times, with pandemics such as COVID-19, conflicts, crises, climate conditions, and naturals disasters all becoming too common. </p>
-                <a href="#!" class="more">Read More <i class="fa fa-arrow-right"></i></a>
+                <a href="assets/pdf/Rapid-Medical-Field-Hospital-Solutions.pdf" class="more">Read More <i class="fa fa-arrow-right"></i></a>
               </div>
             </li>
             <li class="animatedParent animateOnce"><div class="animated growIn brdr b-yellow"></div></li>
@@ -151,7 +196,7 @@
               <div class="animated fadeInLeftShort col-12 col-md-6 newsEvents-desc" data-id='3'>
                 <h6>Our operations in Malaysia and India will be close as per advised duration by the government of both countries, in view with the government efforts to curb the spread of COVID-19.</h6>
                 <p></p>
-                <a href="#!" class="more">Read More <i class="fa fa-arrow-right"></i></a>
+                <a href="assets/pdf/31-mar-2020.pdf" class="more">Read More <i class="fa fa-arrow-right"></i></a>
               </div>
             </li>
             <li class="animatedParent animateOnce"><div class="animated growIn brdr b-yellow"></div></li>
@@ -165,15 +210,15 @@
               </div>
               <div class="animated fadeInLeftShort col-12 col-md-6 newsEvents-desc" data-id='3'>
                 <h6>Malaysia's Prime Minister recently announced the Movement Control Order after the spike in Covid-19 cases.</h6>
-                <p>Malaysia's Prime Minister recently announced the Movement Control Order after the spike in Covid-19 cases. All our office premises and operations in Malaysia will be closed effective today</p>
-                <a href="#!" class="more">Read More <i class="fa fa-arrow-right"></i></a>
+                <p></p>
+                <a href="assets/pdf/18-mar-2020.pdf" class="more">Read More <i class="fa fa-arrow-right"></i></a>
               </div>
             </li>
             <li class="animatedParent animateOnce"><div class="animated growIn brdr b-yellow"></div></li>
             <li class="animatedParent animateOnce row d-flex justify-content-around" data-sequence='200'>
               <div class="animated fadeInLeftShort col-3 col-md-1 date" data-id='1'>
-                <b>MAY 14</b>
-                <p>2020</p>
+                <b>OCT 16</b>
+                <p>2019</p>
               </div>
               <div class="animated fadeInLeftShort col-9 col-md-5 news-img" data-id='2'>
                 <img src="assets/images/newsEvents-img5.jpg" alt="Revolutionizing the industry with new coating facility in Qatar">
@@ -181,7 +226,112 @@
               <div class="animated fadeInLeftShort col-12 col-md-6 newsEvents-desc" data-id='3'>
                 <h6>Revolutionizing the industry with new coating facility in Qatar</h6>
                 <p>Wasco Coatings Limited today announce that it entered into a shareholder agreement with Medgulf Construction Company W.L.L to jointly establish a coating facility in the state of Qatar.</p>
-                <a href="#!" class="more">Read More <i class="fa fa-arrow-right"></i></a>
+                <a href="assets/pdf/16-oct-2019.pdf" class="more">Read More <i class="fa fa-arrow-right"></i></a>
+              </div>
+            </li>
+            <li class="animatedParent animateOnce"><div class="animated growIn brdr b-yellow"></div></li>
+            <li class="animatedParent animateOnce row d-flex justify-content-around" data-sequence='200'>
+              <div class="animated fadeInLeftShort col-3 col-md-1 date" data-id='1'>
+                <b>FEB 27</b>
+                <p>2019</p>
+              </div>
+              <div class="animated fadeInLeftShort col-9 col-md-5 news-img" data-id='2'>
+                <img src="assets/images/newsEvents-img7.jpg" alt="Revolutionizing the industry with new coating facility in Qatar">
+              </div>
+              <div class="animated fadeInLeftShort col-12 col-md-6 newsEvents-desc" data-id='3'>
+                <h6>WASCO Energy to Build a Line Pipe Coating Facility in Qatar</h6>
+                <p>Wasco Energy Limited and Qatar Petroleum signed a Memorandum of Understanding (MoU) earlier this week for the establishment by Wasco of a facility in the State of Qatar for anti-corrosion and concrete weight coating; in support of Qatar Petroleum’s Tawteen Program.</p>
+                <a href="assets/pdf/27-feb-2019.pdf" class="more">Read More <i class="fa fa-arrow-right"></i></a>
+              </div>
+            </li>
+            <li class="animatedParent animateOnce"><div class="animated growIn brdr b-yellow"></div></li>
+            <li class="animatedParent animateOnce row d-flex justify-content-around" data-sequence='200'>
+              <div class="animated fadeInLeftShort col-3 col-md-1 date" data-id='1'>
+                <b>Apr 30</b>
+                <p>2018</p>
+              </div>
+              <div class="animated fadeInLeftShort col-9 col-md-5 news-img" data-id='2'>
+                <img src="assets/images/newsEvents-img8.jpg" alt="Revolutionizing the industry with new coating facility in Qatar">
+              </div>
+              <div class="animated fadeInLeftShort col-12 col-md-6 newsEvents-desc" data-id='3'>
+                <h6>Wasco and Al Shuwayer Group form partnership to design and construct prefabricated substations for the Kingdom of Saudi Arabia Market.</h6>
+                <p>Wasco is pleased to announce that it has signed a Memorandum of Understanding with Al Shuwayer Sons to deliver ‘In Kingdom prefabricated substation projects.</p>
+                <a href="assets/pdf/30-apr-2018.pdf" class="more">Read More <i class="fa fa-arrow-right"></i></a>
+              </div>
+            </li>
+            <li class="animatedParent animateOnce"><div class="animated growIn brdr b-yellow"></div></li>
+            <li class="animatedParent animateOnce row d-flex justify-content-around" data-sequence='200'>
+              <div class="animated fadeInLeftShort col-3 col-md-1 date" data-id='1'>
+                <b>Aug 01</b>
+                <p>2017</p>
+              </div>
+              <div class="animated fadeInLeftShort col-9 col-md-5 news-img" data-id='2'>
+                <img src="assets/images/newsEvents-img9.jpg" alt="Revolutionizing the industry with new coating facility in Qatar">
+              </div>
+              <div class="animated fadeInLeftShort col-12 col-md-6 newsEvents-desc" data-id='3'>
+                <h6>Award Of Contract For The Provision Of Engineering, Supply And Fabrication Of Three Substations Including HVAC For Siemens SAS 2017</h6>
+                <p></p>
+               
+              </div>
+            </li>
+            <li class="animatedParent animateOnce"><div class="animated growIn brdr b-yellow"></div></li>
+            <li class="animatedParent animateOnce row d-flex justify-content-around" data-sequence='200'>
+              <div class="animated fadeInLeftShort col-3 col-md-1 date" data-id='1'>
+                <b>Feb 16</b>
+                <p>2016</p>
+              </div>
+              <div class="animated fadeInLeftShort col-9 col-md-5 news-img" data-id='2'>
+                <img src="assets/images/newsEvents-img10.jpg" alt="Revolutionizing the industry with new coating facility in Qatar">
+              </div>
+              <div class="animated fadeInLeftShort col-12 col-md-6 newsEvents-desc" data-id='3'>
+                <h6>Wasco Engineering Services Singapore Ptd Ltd was nominated as authorized packager and distributor of LeROI Gas Compressors (LeROI)</h6>
+                <p></p>
+                
+              </div>
+            </li>
+            <li class="animatedParent animateOnce"><div class="animated growIn brdr b-yellow"></div></li>
+            <li class="animatedParent animateOnce row d-flex justify-content-around" data-sequence='200'>
+              <div class="animated fadeInLeftShort col-3 col-md-1 date" data-id='1'>
+                <b>Feb 10</b>
+                <p>2016</p>
+              </div>
+              <div class="animated fadeInLeftShort col-9 col-md-5 news-img" data-id='2'>
+                <img src="assets/images/newsEvents-img11.jpg" alt="Revolutionizing the industry with new coating facility in Qatar">
+              </div>
+              <div class="animated fadeInLeftShort col-12 col-md-6 newsEvents-desc" data-id='3'>
+                <h6>Wasco Engineering Group Limited Announced as GE's New Platinum Level Participant</h6>
+                <p></p>
+                
+              </div>
+            </li>
+            <li class="animatedParent animateOnce"><div class="animated growIn brdr b-yellow"></div></li>
+            <li class="animatedParent animateOnce row d-flex justify-content-around" data-sequence='200'>
+              <div class="animated fadeInLeftShort col-3 col-md-1 date" data-id='1'>
+                <b>Dec 11</b>
+                <p>2015</p>
+              </div>
+              <div class="animated fadeInLeftShort col-9 col-md-5 news-img" data-id='2'>
+                <img src="assets/images/newsEvents-img12.jpg" alt="Revolutionizing the industry with new coating facility in Qatar">
+              </div>
+              <div class="animated fadeInLeftShort col-12 col-md-6 newsEvents-desc" data-id='3'>
+                <h6>Statoil Hands Out Johan Sverdrup Pipeline Contracts to Wasco Coatings Malaysia Sdn Bhd</h6>
+                <p></p>
+               
+              </div>
+            </li>
+            <li class="animatedParent animateOnce"><div class="animated growIn brdr b-yellow"></div></li>
+            <li class="animatedParent animateOnce row d-flex justify-content-around" data-sequence='200'>
+              <div class="animated fadeInLeftShort col-3 col-md-1 date" data-id='1'>
+                <b>Oct 01</b>
+                <p>2015</p>
+              </div>
+              <div class="animated fadeInLeftShort col-9 col-md-5 news-img" data-id='2'>
+                <img src="assets/images/newsEvents-img13.jpg" alt="Revolutionizing the industry with new coating facility in Qatar">
+              </div>
+              <div class="animated fadeInLeftShort col-12 col-md-6 newsEvents-desc" data-id='3'>
+                <h6>Wasco Energy entered into a Joint Venture (JV) with Welspun Corporation to set up a state-of-the-art Concrete Weight Coating (CWC) Plant in Anjar, Gujarat, India</h6>
+                <p></p>
+             
               </div>
             </li>
           </ul>

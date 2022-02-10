@@ -26,14 +26,19 @@
                 <img src="assets/images/logo.png" alt="Logo">
               </a>
             </div>
-            <div class="animated fadeInRightShort d-flex align-items-center top-src">
+            <div class="animated fadeInRightShort d-lg-flex align-items-center top-src">
+              <a href="#!" class="d-flex align-items-center send-mail">
+                <span class="d-flex align-items-center justify-content-center">
+                  <img src="assets/images/linkedin.png" alt="linkedin">
+                </span>
+              </a>
               <a href="#!" class="d-flex align-items-center send-mail">
                 <span class="d-flex align-items-center justify-content-center">
                   <img src="assets/images/icon-email.png" alt="send email">
                 </span>
-                <p>Send us a Message</p>
+                <p class="d-none d-lg-block">Enquiry</p>
               </a>
-              <form class="header-form">
+              <form class="header-form d-none d-lg-block">
                 <input type="text" name="" placeholder="Search..." required>
                 <button type="submit">
                   <img src="assets/images/icon-search.png" alt="search">
@@ -53,13 +58,24 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                   <ul class="navbar-nav justify-content-between w-100">
+                    <li class="nav-item d-block d-lg-none">
+                      <form class="header-form">
+                        <input type="text" name="" placeholder="Search..." required>
+                        <button type="submit">
+                          <img src="assets/images/icon-search.png" alt="search">
+                        </button>
+                      </form>
+                    </li>
                     <li class="nav-item dropdown">
-                      <a class="nav-link active" href="about.html">About Us</a>
+                      <a class="nav-link d-none d-lg-block" href="about.html">About Us</a>
+                      <a class="nav-link d-block d-lg-none" href="#!">About Us</a>
                       <ul class="dropdown-menu">
+                        <li class="d-block d-lg-none"><a href="about.html">About Us</a></li>
                         <li><a href="ourPhilosophy.html" class="active">Our Philosophy</a></li>
                         <li><a href="coreValues.html">Core Values</a></li>
-                        <li><a href="corruptionPolicy.html">Anti-Bribery & Corruption Policy</a></li>
-                        <li><a href="whistleblowingPolicy.html">Whistleblowing Policy</a></li>
+                        <li><a href="qhse.html">QHSE</a></li>
+                        <li><a href="assets/pdf/anti-bribery-corruption-policy.pdf">Anti-Bribery & Corruption Policy</a></li>
+                        <li><a href="assets/pdf/whistleblowing-policy.pdf">Whistleblowing Policy</a></li>
                         <li><a href="newsEvents.html">News & Events</a></li>
                         <li><a href="investorRelations.html">Investor Relations</a></li>
                         <li><a href="globalNetwork.html">Our Global Network</a></li>
@@ -67,27 +83,41 @@
                       </ul>
                     </li>
                     <li class="nav-item dropdown">
-                      <a class="nav-link" href="whatWeDo.html">What We Do</a>
+                      <a class="nav-link d-none d-lg-block" href="whatWeDo.html">What We Do</a>
+                      <a class="nav-link d-block d-lg-none" href="#!">What We Do</a>
                       <ul class="dropdown-menu">
+                        <li class="d-block d-lg-none"><a href="whatWeDo.html">What We Do</a></li>
                         <li><a href="pipelineServices.html">Pipeline Services</a></li>
-                        <li><a href="efServices.html">Engineering & Fabrication Services</a></li>
+                        <li class="nav-item dropdown">
+                          <a href="efServices.html" class="d-none d-lg-block">Engineering & Fabrication Services</a>
+                          <a href="#!" class="d-block d-lg-none">Engineering & Fabrication Services</a>
+                          <ul class="dropdown-menu dropdown-menu2">
+                            <li class="d-block d-lg-none"><a href="efServices.html">Engineering & Fabrication Services</a></li>
+                            <li><a href="modulesFpso.html">Modules for FPSO, FSRU, FLNG, MOPU, Offshore and Onshore</a></li>
+                            <li><a href="e-houseSubstation.html">E-house, Substation and Living Quarters / Accommodation Module</a></li>
+                            <li><a href="compressionPowergen.html">Compression and Powergen</a></li>
+                            <li><a href="generalFabrication.html">General Fabrication</a></li>
+                            <li><a href="aftermarketServices.html">Aftermarket and Services</a></li>
+                            <li><a href="leasingRentalBoom.html">Leasing and Rental Boom</a></li>
+                            <li><a href="engineeringSolutions.html">Engineering Solutions</a></li>
+                          </ul>
+                        </li>
                         <li><a href="medCon.html">Med-Con</a></li>
                         <li><a href="trackRecords.html">Track Records</a></li>
                       </ul>
                     </li>
-                    <li class="nav-item dropdown">
+                    <li class="nav-item">
                       <a class="nav-link" href="sustainability.html">Sustainability</a>
-                      <ul class="dropdown-menu">
-                        <li><a href="qhse.html">QHSE</a></li>
-                      </ul>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="innovation.html">Innovation</a>
+                      <a class="nav-link" href="digitalization.html">Digitalization</a>
                     </li>
                     <li class="nav-item dropdown">
-                      <a class="nav-link" href="contact.html">Contact Us</a>
+                      <a class="nav-link d-none d-lg-block" href="contact.html">Contact Us</a>
+                      <a class="nav-link d-block d-lg-none" href="#!">Contact Us</a>
                       <ul class="dropdown-menu">
-                        <li><a href="regionalOffices.html">Regional Offices</a></li>
+                        <li class="d-block d-lg-none"><a href="contact.html">Contact Us</a></li>
+                        <li><a href="regionalOffices.html">Global Offices</a></li>
                         <li><a href="enquiryForm.html">Enquiry Form</a></li>
                         <li><a href="careers.html">Careers</a></li>
                       </ul>
@@ -115,7 +145,7 @@
               <div class="brdr b-yellow"></div>
             </div>
             <div class="animated fadeInRightShort col-md-8">
-              <p>Here at Wasco Energy, we are driven by passion to continuously understand your needs, and deliver the most cost effective and efficient solutions to ensure success for your projects.</p>
+              <p>Wasco Energy is committed to be the integrity leader in the markets we serve. We are passionate to understand every facets of your operational needs – from consultation to installation, so you will always get the most cost effective and efficient solutions for your projects. Our dedicated team brings a wealth of operational experience and technological solutions to ensure your project success.</p>
             </div>
           </div>
           <div class="animatedParent animateOnce row mb-5">
@@ -124,8 +154,8 @@
               <div class="brdr b-yellow"></div>
             </div>
             <div class="animated fadeInRightShort col-md-8">
-              <p><b class="d-block">UPHOLDING SUSTAINABLE VALUES TO DELIVER EXCELLENCE IN EVERYTHING WE DO.</b>
-              <br>While we are obligated to our many stakeholders to grow our business, we constantly strive to balance out our economic ambitions with societal and environmental obligations, so that we will prosper in an ethical manner and make a positive impact on Profits, People and Planet. By inculcating a spirit of excellence in all that we set our hands to and by maintaining an esprit de corps at all levels of our organization, we believe we still stand out as a model for responsible corporate behavior.</p>
+              <p><b class="d-block">TO DELIVER RELIABLE AND COMPETITIVE SOLUTIONS TO THE ENERGY INDUSTRY WITH NET ZERO CARBON EMISSIONS BY THE YEAR 2026</b>
+              <br>While maintaining consistency in delivering excellent product quality and superior service, our practices will also align with our goal of achieving net zero carbon emissions, in addition to our commitment to achieve TARGET ZERO whereby all incidents and accidents are preventable.</p>
             </div>
           </div>
           <div class="animatedParent animateOnce row mb-5">
@@ -134,9 +164,9 @@
               <div class="brdr b-yellow"></div>
             </div>
             <div class="animated fadeInRightShort col-md-8">
-              <p><b class="d-block">PROVIDING RELIABLE AND COMPETITIVE PRODUCTS, SERVICES AND SOLUTIONS TO THE MARKETS THAT WE SERVE, WHILE CONTINUOUSLY CREATING VALUE FOR OUR CUSTOMERS, EMPLOYEES, SHAREHOLDERS AND OTHER STAKEHOLDERS.</b>
+              <p><b class="d-block">TO ACCELERATE THE GLOBAL ENERGY TRANSITION WHILE ENHANCING VALUE FOR ALL OUR STAKEHOLDERS.</b>
               <br>
-              We are committed to follow the following sustainability priorities to achieve our mission:
+              Our efforts to accelerate the global shift to renewable energy sources will deliver greater value to all with the following sustainability priorities:
               </p>
             </div>
           </div>
@@ -161,7 +191,7 @@
                     </div>
                     <div class="philosophy-block-desc">
                       <h5>Strategic Engagement</h5>
-                      <p>To strengthen relationships with all stakeholders to ensure the sustainable development of our business, employees, communities, business partners and customers.</p>
+                      <p>To strengthen relationships with stakeholders for a sustainable business development.</p>
                     </div>
                   </div>
                   <div class="ourPhilosophy-block">
@@ -170,7 +200,7 @@
                     </div>
                     <div class="philosophy-block-desc">
                       <h5>Operational Efficiency</h5>
-                      <p>To ensure improvements are continuously made to our operations and our supply chain in line with the highest global standards of efficiency.</p>
+                      <p>To increase efficiency with continuous improvements in operations and supply chain.</p>
                     </div>
                   </div>
                   <div class="ourPhilosophy-block">
@@ -188,7 +218,7 @@
                     </div>
                     <div class="philosophy-block-desc">
                       <h5>Advocacy & Social Responsibility</h5>
-                      <p>To contribute in a positive and tangible manner to the markets that we serve by aligning with national and global development goals and principles.</p>
+                      <p>To contribute to the markets we serve by aligning with national and global development goals.</p>
                     </div>
                   </div>
                 </li>
@@ -199,7 +229,7 @@
                     </div>
                     <div class="philosophy-block-desc">
                       <h5>Health and Safety</h5>
-                      <p>To ensure our work does not compromise stakeholder health or safety and to promote the safety and health of our employees, contractors, and the communities we operate in.</p>
+                      <p>To achieve TARGET ZERO (All Incidents and Accidents Are Preventable) by promoting health and safety of our stakeholders, employees, contractors and communities.</p>
                     </div>
                   </div>
                   <div class="ourPhilosophy-block">
@@ -208,7 +238,7 @@
                     </div>
                     <div class="philosophy-block-desc">
                       <h5>Economic Responsibility</h5>
-                      <p>To ensure our organization and our shareholders garner long-term and mutually beneficial economic value from our business operations.</p>
+                      <p>To garner mutual beneficial economic value for our organisation and stakeholders.</p>
                     </div>
                   </div>
                   <div class="ourPhilosophy-block">
@@ -217,7 +247,7 @@
                     </div>
                     <div class="philosophy-block-desc">
                       <h5>Product & Service Innovation</h5>
-                      <p>To continually create new products, services, and processes that elevate the customer service experience, enable us to keep our competitive standing in the market.</p>
+                      <p>To continually create new products, services and processes that will elevate customer experiences.</p>
                     </div>
                   </div>
                   <div class="ourPhilosophy-block">

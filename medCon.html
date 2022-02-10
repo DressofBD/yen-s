@@ -26,14 +26,19 @@
                 <img src="assets/images/logo.png" alt="Logo">
               </a>
             </div>
-            <div class="animated fadeInRightShort d-flex align-items-center top-src">
+            <div class="animated fadeInRightShort d-lg-flex align-items-center top-src">
+              <a href="#!" class="d-flex align-items-center send-mail">
+                <span class="d-flex align-items-center justify-content-center">
+                  <img src="assets/images/linkedin.png" alt="linkedin">
+                </span>
+              </a>
               <a href="#!" class="d-flex align-items-center send-mail">
                 <span class="d-flex align-items-center justify-content-center">
                   <img src="assets/images/icon-email.png" alt="send email">
                 </span>
-                <p>Send us a Message</p>
+                <p class="d-none d-lg-block">Enquiry</p>
               </a>
-              <form class="header-form">
+              <form class="header-form d-none d-lg-block">
                 <input type="text" name="" placeholder="Search..." required>
                 <button type="submit">
                   <img src="assets/images/icon-search.png" alt="search">
@@ -53,13 +58,24 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                   <ul class="navbar-nav justify-content-between w-100">
+                    <li class="nav-item d-block d-lg-none">
+                      <form class="header-form">
+                        <input type="text" name="" placeholder="Search..." required>
+                        <button type="submit">
+                          <img src="assets/images/icon-search.png" alt="search">
+                        </button>
+                      </form>
+                    </li>
                     <li class="nav-item dropdown">
-                      <a class="nav-link" href="about.html">About Us</a>
+                      <a class="nav-link d-none d-lg-block" href="about.html">About Us</a>
+                      <a class="nav-link d-block d-lg-none" href="#!">About Us</a>
                       <ul class="dropdown-menu">
+                        <li class="d-block d-lg-none"><a href="about.html">About Us</a></li>
                         <li><a href="ourPhilosophy.html">Our Philosophy</a></li>
                         <li><a href="coreValues.html">Core Values</a></li>
-                        <li><a href="corruptionPolicy.html">Anti-Bribery & Corruption Policy</a></li>
-                        <li><a href="whistleblowingPolicy.html">Whistleblowing Policy</a></li>
+                        <li><a href="qhse.html">QHSE</a></li>
+                        <li><a href="assets/pdf/anti-bribery-corruption-policy.pdf">Anti-Bribery & Corruption Policy</a></li>
+                        <li><a href="assets/pdf/whistleblowing-policy.pdf">Whistleblowing Policy</a></li>
                         <li><a href="newsEvents.html">News & Events</a></li>
                         <li><a href="investorRelations.html">Investor Relations</a></li>
                         <li><a href="globalNetwork.html">Our Global Network</a></li>
@@ -67,27 +83,41 @@
                       </ul>
                     </li>
                     <li class="nav-item dropdown">
-                      <a class="nav-link active" href="whatWeDo.html">What We Do</a>
+                      <a class="nav-link d-none d-lg-block" href="whatWeDo.html">What We Do</a>
+                      <a class="nav-link d-block d-lg-none" href="#!">What We Do</a>
                       <ul class="dropdown-menu">
+                        <li class="d-block d-lg-none"><a href="whatWeDo.html">What We Do</a></li>
                         <li><a href="pipelineServices.html">Pipeline Services</a></li>
-                        <li><a href="efServices.html">Engineering & Fabrication Services</a></li>
+                        <li class="nav-item dropdown">
+                          <a href="efServices.html" class="d-none d-lg-block">Engineering & Fabrication Services</a>
+                          <a href="#!" class="d-block d-lg-none">Engineering & Fabrication Services</a>
+                          <ul class="dropdown-menu dropdown-menu2">
+                            <li class="d-block d-lg-none"><a href="efServices.html">Engineering & Fabrication Services</a></li>
+                            <li><a href="modulesFpso.html">Modules for FPSO, FSRU, FLNG, MOPU, Offshore and Onshore</a></li>
+                            <li><a href="e-houseSubstation.html">E-house, Substation and Living Quarters / Accommodation Module</a></li>
+                            <li><a href="compressionPowergen.html">Compression and Powergen</a></li>
+                            <li><a href="generalFabrication.html">General Fabrication</a></li>
+                            <li><a href="aftermarketServices.html">Aftermarket and Services</a></li>
+                            <li><a href="leasingRentalBoom.html">Leasing and Rental Boom</a></li>
+                            <li><a href="engineeringSolutions.html">Engineering Solutions</a></li>
+                          </ul>
+                        </li>
                         <li><a href="medCon.html" class="active">Med-Con</a></li>
                         <li><a href="trackRecords.html">Track Records</a></li>
                       </ul>
                     </li>
-                    <li class="nav-item dropdown">
+                    <li class="nav-item">
                       <a class="nav-link" href="sustainability.html">Sustainability</a>
-                      <ul class="dropdown-menu">
-                        <li><a href="qhse.html">QHSE</a></li>
-                      </ul>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="innovation.html">Innovation</a>
+                      <a class="nav-link" href="digitalization.html">Digitalization</a>
                     </li>
                     <li class="nav-item dropdown">
-                      <a class="nav-link" href="contact.html">Contact Us</a>
+                      <a class="nav-link d-none d-lg-block" href="contact.html">Contact Us</a>
+                      <a class="nav-link d-block d-lg-none" href="#!">Contact Us</a>
                       <ul class="dropdown-menu">
-                        <li><a href="regionalOffices.html">Regional Offices</a></li>
+                        <li class="d-block d-lg-none"><a href="contact.html">Contact Us</a></li>
+                        <li><a href="regionalOffices.html">Global Offices</a></li>
                         <li><a href="enquiryForm.html">Enquiry Form</a></li>
                         <li><a href="careers.html">Careers</a></li>
                       </ul>
