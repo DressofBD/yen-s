@@ -1361,6 +1361,32 @@ img.service-block-graph {
 
 
 
+.yardCapabilities table tr td:first-child{
+  text-align: left;
+}
+.yardCapabilities table td{
+  width: 50%;
+  padding: 8px 50px;
+}
+.yardCapabilities table tr:nth-child(odd) td:first-child{
+  background: #e1e5d8;
+}
+.yardCapabilities table tr:nth-child(odd) td:last-child{
+  background: #fff;
+}
+.yardCapabilities table tr:nth-child(even) td:first-child{
+  background: #d5dbc9;
+}
+.yardCapabilities table tr:nth-child(even) td:last-child{
+  background: #eaece5;
+}
+.yardCapabilities table tr:last-child td:last-child{
+  padding: 8px 20px;
+}
+
+
+
+
 
 /*Med-Con Page*/
 .medCon-blocks li{
@@ -1422,9 +1448,38 @@ img.service-block-graph {
 }
 .trackRecords-sortlist li h6 {
   margin-top: 15px;
-  height: 40px;
+  min-height: 40px;
   display: flex;
   align-items: center;
+}
+
+
+
+.trackRecords-tbl{}
+.trackRecords-tbl, .trackRecords-tbl td{
+  border: 0;
+}
+.trackRecords-tbl td {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+table.trackRecords-tbl tr:nth-child(odd) td:first-child{
+  background: #006599;
+}
+table.trackRecords-tbl tr:nth-child(odd) td:last-child{
+  background: #fff;
+}
+table.trackRecords-tbl tr:nth-child(even) td:first-child{
+  background: #007fb4;
+}
+table.trackRecords-tbl tr:nth-child(even) td:last-child{
+  background: #eaece5;
+}
+table.trackRecords-tbl tr td:first-child{
+  font-weight: 400;
+  color: #fff;
+  min-width: 155px;
 }
 
 
@@ -1480,7 +1535,6 @@ img.service-block-graph {
   margin-top: -16px;
 }
 .accordion-button:not(.collapsed)::after {
-  /*background-image: url(../images/accordion-button-open.png);*/
   background-image: url(../images/accordion-button-close.png);
   transform: rotate(90deg);
 }
@@ -1992,7 +2046,9 @@ li.nav-item:last-child {
 .mapIcon.australia::after {
   right: 13px;
 }
-
+h3.s-heading {
+  font-size: 32px;
+}
 
 
 }
@@ -2094,6 +2150,7 @@ footer.footer {
 .service-block a.more {
   padding-right: 15px;
   padding-top: 10px;
+  font-size: 14px;
 }
 #filters li {
   max-width: 46%;
@@ -2102,13 +2159,16 @@ footer.footer {
   width: 48%;
 }
 .trackRecords-desc .service-block-desc {
-  padding: 0 15px;
+  padding: 0 10px;
 }
 .brdr2 {
   width: calc(100% + 15px);
 }
 .trackRecords-sortlist li a.more {
   padding-top: 0;
+}
+.trackRecords-sortlist li h6 {
+  font-size: 15px;
 }
 .accordion-body img {
   max-height: 170px;
@@ -2164,6 +2224,8 @@ footer.footer {
 .TypesofCoating .accordion-img-box img, .TypesofCoating .accordion-img-box.img-3 img {
   padding: 0;
 }
+
+
 
 
 }
