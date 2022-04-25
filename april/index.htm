@@ -78,6 +78,9 @@ img{
   bottom: 0;
   right: 0;
 }
+.bg-m{
+  display: none;
+}
 .prudential-logo {
   position: absolute;
   max-width:  31%;
@@ -95,7 +98,7 @@ img{
   position: relative;
   z-index: 1;
   padding: 0 30px;
-  margin-top: 90%;
+  margin-top: 86%;
 }
 .name {
   font-family: "fSAlbertWeb-Bold", "Helvetica", "Arial", sans-serif;
@@ -107,14 +110,18 @@ img{
   max-width: 60%;
   text-align: left;
 }
-.imahes-is-for {
+.images-is-for {
   display: block;
   text-align: right;
   font-size: 14px;
 }
 .words-alone {
-  margin-top: 25px;
-  font-size: 24px;
+  margin-top: -170px;
+  font-size: 20px;
+  position: absolute;
+  max-width: 39%;
+  left: 54px;
+  text-align: left;
 }
 .bdVoucher {
   position: relative;
@@ -133,6 +140,9 @@ img{
   font-family: "fSAlbertWeb-Bold", "Helvetica", "Arial", sans-serif;
   line-height: 32px;
 }
+.follow-Steps-m{
+  display: none;
+}
 .tc {
   text-align: left;
   padding: 35px 20px 20px;
@@ -145,6 +155,20 @@ img{
   font-size: 13px;
   margin-bottom: 5px;
 }
+.tc strong {
+  position: relative;
+  width: 100%;
+  display: block;
+}
+.tc strong::after {
+  position: absolute;
+  width: 57%;
+  content: "";
+  height: 1px;
+  background: #9d7418;
+  top: 11px;
+  right: 0;
+}
 
 @media screen and (max-width:767px){
 body {
@@ -153,11 +177,24 @@ body {
 .pru{
   width: 400px;
 }
+.bg{
+  display: none;
+}
+.bg-m{
+  display: block;
+}
+.follow-Steps{
+  display: none;
+}
+.follow-Steps-m{
+  display: block;
+}
 .prudential-logo {
   max-width: 140px;
   height: auto;
 }
 .main-content {
+  margin-top: 92%;
   padding: 0 20px;
 }
 .pru-prestige {
@@ -171,8 +208,12 @@ body {
   left: 20px;
 }
 .words-alone {
+  max-width: 100%;
+  position: relative;
+  text-align: center;
   margin-top: 16px;
   font-size: 18px;
+  left: 0;
 }
 .bdVoucher {
   max-width: 100%;
@@ -187,17 +228,21 @@ body {
 .tc {
   padding: 20px 10px 15px;
 }
-.tc ol li, .tc p, .imahes-is-for{
+.tc ol li, .tc p, .images-is-for{
   font-size: 11px;
 }
-
+.tc strong::after {
+  width: 22%;
+  top: 9px;
+}
 }
 </style>
 </head>
    <body>
       <section class="pru">
         <div class="body-bg">
-          <img src="assets/images/bg.jpg" alt="PRU">
+          <img src="assets/images/bg.jpg" class="bg" alt="PRU">
+          <img src="assets/images/bg-m.jpg" class="bg-m" alt="PRU">
         </div>
         <div class="logo-section">
           <img src="assets/images/prudential.png" class="prudential-logo">
@@ -205,7 +250,7 @@ body {
           <p class="name"><$name$></p>
         </div>
         <div class="main-content">
-          <i class="imahes-is-for">Image is for illustration purpose only.</i>
+          <i class="images-is-for">Image is for illustration purpose only.</i>
           <p class="words-alone">Words alone are not enough to express our gratitude towards your continuous trust in us. Here’s a little treat for you on your birthday, on us.</p>
           <div class="bdVoucher">
             <img src="assets/images/bdVoucher.png" alt="">
@@ -214,6 +259,7 @@ body {
               Expiry date: <$custom2$></p>
           </div>
           <img src="assets/images/step.png" class="follow-Steps" alt="Follow Steps">
+          <img src="assets/images/step-m.png" class="follow-Steps-m" alt="Follow Steps">
           <div class="tc">
             <strong>Birthday Voucher’s Terms and Conditions</strong>
             <p>The birthday voucher (“Voucher”) is offered to all PRUPrestige Customers (“Customer”), subject to the term set out herein.</p>
