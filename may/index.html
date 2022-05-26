@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0" />
+    <title>Home</title>
+    <link rel="shortcut icon" type="image/icon" href="assets/prudential.png">
+<style>
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box
+}
+@font-face {
+  font-family: DaxOT;
+  src: url(assets/fonts/DaxOT.otf);
+}
+@font-face {
+  font-family: DaxOT-Bold;
+  src: url(assets/fonts/DaxOT-Bold.otf);
+}
+@font-face {
+  font-family: DaxOT-ExtraBold;
+  src: url(assets/fonts/DaxOT-ExtraBold.otf);
+}
+@font-face {
+  font-family: DaxOT-Medium;
+  src: url(assets/fonts/DaxOT-Medium.otf);
+}
+@font-face {
+  font-family: DaxOT-Italic;
+  src: url(assets/fonts/DaxOT-Italic.otf);
+}
+body {
+  font-family: "DaxOT", "Helvetica", "Arial", sans-serif;
+  font-size: 16px;
+  color: #666;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: "DaxOT-Bold", "Helvetica", "Arial", sans-serif;
+}
+h1, h2, h3, h4, h5, h6, ul, ol, p{
+  margin: 0;
+  padding: 0;
+}
+li{
+  list-style: none;
+}
+h3{
+  font-size: 28px;
+}
+.main-area{
+  max-width: 800px;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  background-color: #fff;
+  color: #000;
+  padding: 25px 0;
+  box-shadow: 0 4px 9px rgba(0, 0, 0, 0.2);
+}
+.top-area, .bottom-area{
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.mx25{
+  margin-left: 25px;
+  margin-right: 25px;
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
+.z9{
+  position: relative;
+  z-index: 9;
+}
+.middle-area{
+  position: relative;
+ background: #ffffff url("assets/images/bg.jpg") no-repeat center;
+ background-size: cover;
+ padding-top: 10px;
+ padding-bottom: 20px;
+}
+.middle-area:after{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(1,1,1, 0.5);
+}
+.grand-prize-desc {
+  position: relative;
+  background: rgba(1, 1, 1, 0.77);
+  color: #fff;
+  margin-bottom: 20px;
+  padding: 30px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+.d-flex-inline {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+p.top-desc {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+h4 span, h3 span{
+  font-family: "DaxOT", "Helvetica", "Arial", sans-serif;
+  font-weight: normal !important;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px auto 20px;
+}
+.cards li{
+  width: 32%;
+  position: relative;
+}
+.card-desc {
+  position: absolute;
+  z-index: 9;
+  top: 100px;
+  color: #fff;
+  padding: 0 15px;
+}
+.card-desc img {
+  max-width: 180px;
+}
+p.copyright {
+  display: block;
+  text-align: right;
+  color: #fff;
+  font-size: 10px;
+  font-weight: normal;
+}
+.winner{
+  max-width: 80%;
+  margin: 0 auto;
+}
+ul.lists {
+  text-align: left;
+  width: 45%;
+}
+ul.lists li{
+  list-style: disc;
+}
+.prizes-Inclusive{
+  max-width: 90%;
+  margin: 20px auto;
+}
+.prizes-Inclusive-heading{
+  margin-bottom: 15px;
+}
+.prizes-Inclusive-heading li:nth-child(2) {
+  min-width: 40%;
+}
+.brdr-img{
+  max-height: 2px;
+}
+.grand-prize-desc2{
+  max-width: 70%;
+  margin: 0 auto;
+}
+.grand-prize-desc2 h3{
+  font-size: 23px;
+}
+.sign-up {
+  max-width: 200px;
+  margin-top: 15px;
+}
+.shop-HLB-Visa{
+  display: block;
+  margin: 15px auto 20px;
+}
+.bottom-area {
+  padding-top: 30px;
+}
+.mb-none{
+  display: block;
+}
+.pc-none{
+  display: none;
+}
+@media screen and (max-width:767px){
+body {
+  font-size: 15px;
+}
+.main-area{
+  width: 400px;
+}
+.mb-none{
+  display: none;
+}
+.pc-none{
+  display: block;
+}
+p.top-desc, .grand-prize-desc2, .winner, .prizes-Inclusive {
+  max-width: 100%;
+}
+.cards li{
+  width: 80%;
+}
+.cards, .d-flex-inline {
+  flex-direction: column;
+}
+.card-desc {
+  top: 120px;
+}
+.grand-prize-desc {
+  padding: 15px;
+}
+.mx25 {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.prizes-Inclusive-heading li:nth-child(1), .prizes-Inclusive-heading li:nth-child(3) {
+  display: none;
+}
+.prizes-Inclusive-heading li:nth-child(2) {
+  min-width: 100%;
+}
+ul.lists {
+  width: 100%;
+  padding-left: 15px;
+}
+.grand-prize-desc2 h3 {
+  font-size: 20px;
+}
+h3 {
+  font-size: 23px;
+}
+.grand-prize-desc2 img{
+  max-width: 150px;
+}
+.card-desc {
+  font-size: 17px;
+}
+.card-desc img {
+  max-width: 90%;
+}
+}
+</style>
+</head>
+   <body>
+      <section class="main-area">
+        <div class="top-area">
+          <h3>Get into action with our Ole Ole Bola Campaign!</h3>
+          <p class="top-desc">Up your game and continue scoring for chances to win daily cashback and FIFA World Cup™ adidas Al Rihla Miniball, courtesy of Visa! Spend RM50 with your HLB Visa Credit Card or HLB Visa Debit Card and play our Ole Ole Bola mini game now!</p>
+          <h3>How to Participate?</h3>
+          <ul class="cards">
+            <li>
+              <img src="assets/images/card-1.png" alt="How to Participate?">
+              <div class="card-desc">
+                <p>Spend a minimum of RM50 with your HLB Visa Credit Card or HLB Visa Debit Card for a game token to win exclusive prizes</p>
+              </div>
+            </li>
+            <li>
+              <img src="assets/images/card-2.png" alt="How to Participate?">
+              <div class="card-desc">
+                <p>Receive a 1-time SMS from <strong>66600</strong> with your game unique code</p>
+              </div>
+            </li>
+            <li>
+              <img src="assets/images/card-3.png" alt="How to Participate?">
+              <div class="card-desc">
+                <a href="#!"><img src="assets/images/old-games.png" alt="old games"></a>
+                <p>Create your user ID, password & ENTER YOUR UNIQUE CODE to start playing!</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="middle-area">
+          <img src="assets/images/grand-prize.png" alt="grand prize" class="z9 w-ful mb-none">
+          <img src="assets/images/grand-prize-m.png" alt="grand prize" class="z9 w-ful pc-none">
+          <div class="grand-prize-desc mx25 z9">
+            <p>Top players with the highest accumulated scores will win</p>
+            <img src="assets/images/winr-1.png" alt="1st Place Grand Prize Winner" class="winner">
+            <p><strong>5D4N</strong> package for 2 to attend the</p>
+            <p><strong>FIFA World Cup Qatar 2022 ™ FINAL MATCH,</strong> courtesy of Visa</p>
+            <img src="assets/images/brdr.png" class="brdr-img" alt="1st Place Grand Prize Winner end">
+
+            <img src="assets/images/winr-2.png" alt="2nd Place Grand Prize Winner" class="winner">
+            <p><strong>5D4N</strong> package for 2 to attend the</p>
+            <p><strong>FIFA World Cup Qatar 2022 ™ Semi-Final Match, </strong> courtesy of Visa</p>
+            <img src="assets/images/brdr.png" class="brdr-img" alt="1st Place Grand Prize Winner end">
+
+            <img src="assets/images/winr-3.png" alt="3rd Place Grand Prize Winner" class="winner">
+            <p><strong>5D4N</strong> package for 2 to attend the</p>
+            <p><strong>FIFA World Cup Qatar 2022 ™ Quarter-Final Match, </strong> courtesy of Visa</p>
+
+            <div class="prizes-Inclusive">
+              <ul class="d-flex-inline prizes-Inclusive-heading">
+                <li><img src="assets/images/brdr.png" class="brdr-img"></li>
+                <li><h3>Prizes Inclusive Of</h3></li>
+                <li><img src="assets/images/brdr.png" class="brdr-img"></li>
+              </ul>
+              <div class="d-flex-inline">
+                <ul class="lists">
+                  <li>Return Flights</li>
+                  <li>5D4N stay at a 5-star hotel</li>
+                  <li>Airport transfers in Doha</li>
+                  <li>Daily breakfast</li>
+                  <li>TWO(2) FIFA World Cup Qatar 2022™  Match tickets with Pre-Match Hospitality</li>
+                  <li>Transportation to/from FIFA World Cup Qatar 2022™ Matches and scheduled activities</li>
+                </ul>
+                <ul class="lists">
+                  <li>Group Activity</li>
+                  <li>Visa prepaid product - USD 400 value per package</li>
+                  <li>Guest amenity/gift - USD 400 value per package</li>
+                  <li>Visa Everywhere Lounge</li>
+                  <li>Visa Concierge</li>
+                  <li>Visa Event, Medical and Security support staff</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <img src="assets/images/daily-prize.png" alt="grand prize" class="z9 w-ful mb-none">
+          <img src="assets/images/daily-prize-m.png" alt="grand prize" class="z9 w-ful pc-none">
+          <div class="grand-prize-desc mx25 z9">
+            <div class="grand-prize-desc2">
+              <p>Based on daily highest scores</p>
+              <div class="d-flex-inline">
+                <div>
+                  <img src="assets/images/ball.png" alt="FIFA Football">
+                </div>
+                <div>
+                  <p>Top 1 - 10 daily scorers</p>
+                  <h3>Official FIFA World Cup ™ adidas Al Rihla Miniball, <span>courtesy of Visa</span></h3>
+                  <h4>x620 Winners <span>(10 daily winners)</span></h4>
+                </div>
+              </div>
+              <img src="assets/images/brdr.png" class="brdr-img" alt="FIFA">
+              <br>
+              <br>
+              <p>Top 11 - 110 daily scorers</p>
+              <h3>RM5 Cashback</h3>
+              <h4>x6,200 Winners <span>(100 daily winners)</span></h4>
+            </div>
+          </div>
+          <p class="z9 mx25 copyright">©2015: Dmytro Aksonov - Getty Images - All rights reserved.</p>
+        </div>
+        <div class="bottom-area">
+          <h3>Campaign period: 26 May 2022 - 26 July 2022</h3>
+          <p class="shop-HLB-Visa">Shop with your HLB Visa Credit Card or HLB Visa Debit Card <br> now to enjoy daily rebates!</p>
+          <p>Not a HLB Visa Cardholder yet?</p>
+          <a href="#!"><img src="assets/images/sign-up.png" alt="sign up" class="sign-up"></a>
+        </div>
+      </section>
+   </body>
+</html>
+
