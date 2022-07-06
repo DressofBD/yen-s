@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0" />
+    <title>Home</title>
+<style>
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box
+}
+@font-face {
+  font-family: DaxOT;
+  src: url(fonts/DaxOT.otf);
+}
+@font-face {
+  font-family: DaxOT-ExtraBold;
+  src: url(fonts/DaxOT-ExtraBold.otf);
+}
+@font-face {
+  font-family: DaxOT-Medium;
+  src: url(fonts/DaxOT-Medium.otf);
+}
+@font-face {
+  font-family: DaxOT-Italic;
+  src: url(fonts/DaxOT-Italic.otf);
+}
+body {
+  font-family: "DaxOT-Medium", "Helvetica", "Arial", sans-serif;
+  font-size: 20px;
+  color: #666;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+h1, h2, h3, h4, h5, h6, ul, ol, p{
+  margin: 0;
+  padding: 0;
+}
+li{
+  list-style: none;
+}
+h3{
+  font-size: 28px;
+}
+.main-area{
+  max-width: 800px;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  background-color: #fff;
+  color: #001648;
+  padding: 25px;
+  /*box-shadow: 0 4px 9px rgba(0, 0, 0, 0.2);*/
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
+header.main-area {
+  text-align: left;
+}
+.header-logo{
+  max-width: 200px;
+}
+.banner-area{
+  position: relative;
+}
+.banner-area img{
+  position: relative;
+  z-index: 9
+}
+.banner-area:after, .banner-area:before{
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: calc(100% - 5px);
+}
+.banner-area a {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+.banner-area::before {
+  background: #f7c5a2;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+.banner-area::after {
+  background: #f7355e;
+  top: 0;
+  right: 0;
+}
+p {
+  margin-bottom: 20px;
+}
+.text-content {
+  max-width: 70%;
+  margin: 0 auto;
+}
+p.sml {
+  font-size: 14px;
+}
+table{
+  margin-bottom: 20px;
+}
+table, table tr td{
+  border: 1px solid #001648;
+  font-size: 18px;
+}
+table tr td{
+  padding: 5px;
+}
+table tr td:first-child{
+  width: 40%;
+}
+table tr:first-child td:first-child{
+  font-family: "DaxOT-ExtraBold", "Helvetica", "Arial", sans-serif;
+  background-color: #ff8c10;
+}
+table tr:first-child td:last-child{
+  font-family: "DaxOT-ExtraBold", "Helvetica", "Arial", sans-serif;
+  background-color: #fb8fb3;
+}
+table tr td span{
+  display: block;
+  font-size: 15px;
+  font-family: "DaxOT", "Helvetica", "Arial", sans-serif;
+}
+
+
+.discount-area, .discount-area .main-area {
+  background: #5c76cc;
+}
+a.btn {
+  background: #eb3024;
+  color: #fff;
+  padding: 8px 35px;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 50px;
+  border: 2px solid #001648;
+}
+
+
+.rm-area{
+  position: relative;
+}
+.rm-area .main-area{
+  padding: 0;
+}
+.rm-area img{
+  position: relative;
+  z-index: 9;
+}
+.rm-area:after, .rm-area:before{
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: calc(100% - 5px);
+}
+.rm-area::before {
+  background: #fb416e;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+.rm-area::after {
+  background: #fe2b63;
+  top: 0;
+  right: 0;
+}
+p a{
+  color: #001648;
+  text-decoration: underline;
+}
+.mt-20{
+  margin-top: 20px;
+  font-family: "DaxOT", "Helvetica", "Arial", sans-serif;
+}
+
+@media screen and (max-width:767px){
+body {
+  font-size: 15px;
+}
+.main-area{
+  width: 100%;
+  max-width: 100%;
+  padding: 15px;
+}
+.text-content {
+  max-width: 100%;
+}
+table, table tr td {
+  font-size: 15px;
+}
+
+}
+</style>
+</head>
+   <body>
+    <header class="main-area">
+      <a href="#!"><img src="images/logo.png" alt="Logo" class="header-logo"></a>
+    </header>
+      <section class="banner-area">
+        <a href="#!"><img src="images/banner.png" alt=""></a>
+      </section>
+      <section class="main-area">
+        <div class="text-content">
+          <p>From 07 July 2022 to 06 August 2022, accumulate spending with your HLB Credit Cards & get invited to sweep our Virtual Shopping Mall! No registration required.</p>
+          <p class="sml">The number of item(s) you can sweep from the Virtual Shopping Mall will be based on your total cumulative spend<sup>1</sup>  during the Campaign Period:</p>
+          <table cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td>Cumulative Spend<sup>1</sup></td>
+                <td>Shopping Cart Size <span>(Maximum number of item(s) which a Qualified Cardholder is eligible to redeem/purchase)</span></td>
+              </tr>
+              <tr>
+                <td>RM2,000 - RM3,999.99</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <td>RM4,000 - RM5,999.99</td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <td>RM6,000 and above</td>
+                <td>3</td>
+              </tr>
+            </tbody>
+          </table>
+          <p>Qualified Cardholders will be invited to a Shopping Sweep session to grab items with up to 70% discounts, vouchers and cash back from our Virtual Shopping Mall in August 2022!</p>
+        </div>
+      </section>
+      <section class="discount-area">
+        <div class="main-area">
+          <img src="images/discount.png" alt="">
+          <a href="#!" class="btn">Virtual Shopping Mall Sweep Session Details</a>
+        </div>
+      </section>
+      <section class="main-area">
+        <div class="text-content">
+          <h2>There’s more!</h2>
+          <p>Be the first 50 Cardholders to accumulate a total min. spend<sup>1</sup> of RM10,000 to join a special Virtual Shopping Mall Sweep session with discounted Sony PlayStation 5 and RM1,000 luxury cash vouchers up for grabs!</p>
+        </div>
+      </section>
+      <section class="rm-area">
+        <div class="main-area">
+          <img src="images/rm-1000.png" alt="">
+        </div>
+      </section>
+      <section class="main-area">
+        <a href="#!" class="btn">Find Out More</a>
+        <p class="sml mt-20">¹ excludes e-Wallet top-ups, insurance, utilities and auto-billing payments. <br> All items are subject to availability and based on a first come, first served mechanism. <br> All pictures are for illustration purposes only. <br> <a href="#!">Terms and Conditions</a> apply.</p>
+        <img src="images/cards.png" alt="master-cards">
+      </section>
+   </body>
+</html>
+
